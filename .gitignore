@@ -1,0 +1,6 @@
+node_modules/
+dist/
+prisma/migrations/
+src/generated/graphql.ts
+graphql.schema.json
+*.env*
