@@ -523,6 +523,7 @@ model PrintSetting {
   marginLeft      Float?
   marginRight     Float?
   fontSize        Float?
+  fontFamily      String?
   topText         String?
   bottomText      String?
   createdAt       DateTime   @default(now())
