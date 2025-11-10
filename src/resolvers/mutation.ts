@@ -77,8 +77,8 @@ const duplicate_array = {
 
 export const handlePrismaError = (e) => {
   let field = "";
+  console.log("error >>>>>>>>>", e);
   if (e instanceof Prisma.PrismaClientKnownRequestError) {
-    console.log("error >>>>>>>>>", e);
     switch (e.code) {
       case "P2002":
         if (e.meta?.target) field = e.meta.target[0];
@@ -543,17 +543,24 @@ export const Mutation = {
     } else return throwUnauthorizedError();
   },
   createOrder: async (_parent, _args, context) => {
+    console.log("User roles:", context.role);
+
     if (context.role.includes(UserType.USER)) {
-      const getDrawer = await context.prisma.drawer.findMany({
-        where: {
-          dispensaryId: _args.input.dispensaryId,
-          userId: _args.input.userId,
-          isUsing: true,
-        },
-      });
-      if (getDrawer.length === 0)
-        return throwManualError(400, "Please start Drawer.");
-      const drawerId = getDrawer[0].id;
+      let drawerId = "";
+      try {
+        const getDrawer = await context.prisma.drawer.findMany({
+          where: {
+            dispensaryId: _args.input.dispensaryId,
+            userId: _args.input.userId,
+            isUsing: true,
+          },
+        });
+        if (getDrawer.length === 0)
+          return throwManualError(400, "Please start Drawer.");
+        const drawerId = getDrawer[0].id;
+      } catch (e) {
+        handlePrismaError(e);
+      }
       try {
         return context.prisma.$transaction(async (tx) => {
           const creation = await tx.order.create({
@@ -1350,6 +1357,7 @@ export const Mutation = {
       try {
         let posSuccess, metrcSuccess;
         // const sendEmail = await userModel.sendEmailFromTeamForUserRegister({ email: 'jjhbudin@gmail.com' })
+
         const currentOrder = await context.prisma.order.findUnique({
           where: {
             id: _args.input.orderId,
