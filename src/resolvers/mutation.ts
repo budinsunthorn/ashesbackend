@@ -543,24 +543,17 @@ export const Mutation = {
     } else return throwUnauthorizedError();
   },
   createOrder: async (_parent, _args, context) => {
-    console.log("User roles:", context.role);
-
     if (context.role.includes(UserType.USER)) {
-      let drawerId = "";
-      try {
-        const getDrawer = await context.prisma.drawer.findMany({
-          where: {
-            dispensaryId: _args.input.dispensaryId,
-            userId: _args.input.userId,
-            isUsing: true,
-          },
-        });
-        if (getDrawer.length === 0)
-          return throwManualError(400, "Please start Drawer.");
-        const drawerId = getDrawer[0].id;
-      } catch (e) {
-        handlePrismaError(e);
-      }
+      const getDrawer = await context.prisma.drawer.findMany({
+        where: {
+          dispensaryId: _args.input.dispensaryId,
+          userId: _args.input.userId,
+          isUsing: true,
+        },
+      });
+      if (getDrawer.length === 0)
+        return throwManualError(400, "Please start Drawer.");
+      const drawerId = getDrawer[0].id;
       try {
         return context.prisma.$transaction(async (tx) => {
           const creation = await tx.order.create({
