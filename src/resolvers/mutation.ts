@@ -59,6 +59,7 @@ const generateHash = (str) => {
 };
 
 const duplicate_array = {
+  ["id"]: "Id",
   ["name"]: "Name",
   ["phone"]: "Phone Number",
   ["email"]: "Email",
@@ -80,23 +81,25 @@ export const handlePrismaError = (e) => {
   console.log("error >>>>>>>>>", e);
   if (e instanceof Prisma.PrismaClientKnownRequestError) {
     switch (e.code) {
-      case "P2002":
+      case "P2002": {
         if (e.meta?.target) field = e.meta.target[0];
+        const fieldName = field || "field";
         throw new GraphQLError("duplicate", {
           extensions: {
             code: 409,
-            msg: "Duplicated " + duplicate_array[field],
-            // msg: 'Duplicated Value'
+            msg: "Duplicated value for " + (duplicate_array[fieldName] ?? fieldName),
           },
         });
-      case "P2003":
+      }
+      case "P2003": {
         if (e.meta?.target) field = e.meta.target[0];
         throw new GraphQLError("hasChildren", {
           extensions: {
             code: 406,
-            msg: "Can not be processed.",
+            msg: "Cannot be processed due to existing related records.",
           },
         });
+      }
       default:
         throw new GraphQLError("hasChildren", {
           extensions: {
@@ -556,25 +559,31 @@ export const Mutation = {
       const drawerId = getDrawer[0].id;
       try {
         return context.prisma.$transaction(async (tx) => {
-          const creation = await tx.order.create({
-            data: {
-              dispensaryId: _args.input.dispensaryId,
-              userId: _args.input.userId,
-              status: _args.input.status,
-              orderDate: _args.input.orderDate,
-              drawerId: drawerId,
-            },
-          });
+          let creation
+          try {
+            creation = await tx.order.create({
+              data: {
+                dispensaryId: _args.input.dispensaryId,
+                userId: _args.input.userId,
+                status: _args.input.status,
+                orderDate: _args.input.orderDate,
+                drawerId: drawerId,
+              },
+            });
 
-          const actionHistory = await tx.actionHistory.create({
-            data: {
-              dispensaryId: context.userInfo.dispensaryId,
-              userId: context.userInfo.userId,
-              userName: context.userInfo.name,
-              actionName: ActionNameList.createOrder,
-              orderId: creation.id,
-            },
-          });
+            const actionHistory = await tx.actionHistory.create({
+              data: {
+                dispensaryId: context.userInfo.dispensaryId,
+                userId: context.userInfo.userId,
+                userName: context.userInfo.name,
+                actionName: ActionNameList.createOrder,
+                orderId: creation.id,
+              },
+            });
+          } catch (e) {
+            handlePrismaError(e);
+          }
+
           return creation;
         });
       } catch (e) {
@@ -1065,8 +1074,8 @@ export const Mutation = {
         return throwManualError(
           400,
           "The Order #" +
-            _args.input.orderId +
-            " is RETURN type. Can not add items."
+          _args.input.orderId +
+          " is RETURN type. Can not add items."
         );
       // Check if RETURN or not
       const dispensaryId = order.dispensaryId;
@@ -1101,8 +1110,8 @@ export const Mutation = {
       });
       const applyUnitWeight =
         product.productUnitOfMeasure == ProductUnitOfMeasure.ea &&
-        product.isApplyUnitWeight &&
-        product.unitWeight > 0
+          product.isApplyUnitWeight &&
+          product.unitWeight > 0
           ? product.unitWeight
           : 1;
       const productUnitWeight = product.unitWeight > 0 ? product.unitWeight : 1;
@@ -1139,8 +1148,8 @@ export const Mutation = {
               const qty =
                 item.product.isApplyUnitWeight && item.product.unitWeight > 0
                   ? truncateToTwoDecimals(
-                      (item.quantity / item.product.unitWeight) * weight
-                    )
+                    (item.quantity / item.product.unitWeight) * weight
+                  )
                   : item.quantity * weight;
               convertedWeight = getConvertedWeight(
                 qty,
@@ -1277,7 +1286,7 @@ export const Mutation = {
               packageLabel: _args.input.packageLabel,
               quantity: setFourDecimals(
                 setFourDecimals(_args.input.quantity) *
-                  setFourDecimals(applyUnitWeight)
+                setFourDecimals(applyUnitWeight)
               ),
               price: truncateToTwoDecimals(_args.input.price),
               cost: truncateToTwoDecimals(_args.input.cost),
@@ -2209,8 +2218,8 @@ export const Mutation = {
         return throwManualError(
           400,
           "To be a Return type order please remove all products in the order #" +
-            _args.input.orderId +
-            ". Or you can create a new order"
+          _args.input.orderId +
+          ". Or you can create a new order"
         );
 
       try {
@@ -2881,7 +2890,7 @@ export const Mutation = {
         return throwManualError(
           400,
           "To change customer please remove all products in the order #" +
-            _args.input.orderId
+          _args.input.orderId
         );
 
       try {
@@ -4120,7 +4129,7 @@ export const Mutation = {
                 quantity: orderItems[j].QuantitySold,
                 price:
                   Number(orderItems[j].TotalPrice.toFixed(2)) /
-                    Number(orderItems[j].QuantitySold.toFixed(2)) || 0,
+                  Number(orderItems[j].QuantitySold.toFixed(2)) || 0,
                 cost: 0,
                 amount: orderItems[j].TotalPrice,
                 costAmount: 0,
@@ -4292,10 +4301,10 @@ export const Mutation = {
           if (!suppliers[j].name) continue;
           if (
             supplierList[
-              suppliers[j].name
-                .replace(/[^a-zA-Z0-9\s]/g, "")
-                .replace(/\s/g, "")
-                .toLowerCase()
+            suppliers[j].name
+              .replace(/[^a-zA-Z0-9\s]/g, "")
+              .replace(/\s/g, "")
+              .toLowerCase()
             ]
           )
             continue;
@@ -4333,25 +4342,25 @@ export const Mutation = {
                     .toLowerCase()
                 ]
                   ? supplierList[
-                      results[i].Supplier.replace(/[^a-zA-Z0-9\s]/g, "")
-                        .replace(/\s/g, "")
-                        .toLowerCase()
-                    ]
+                  results[i].Supplier.replace(/[^a-zA-Z0-9\s]/g, "")
+                    .replace(/\s/g, "")
+                    .toLowerCase()
+                  ]
                   : _args.input.defaultSupplierId,
                 itemCategoryId: itemCategoryList[
                   results[i].ProductCategory.replace(/\s/g, "").toLowerCase()
                 ]
                   ? itemCategoryList[
-                      results[i].ProductCategory.replace(
-                        /\s/g,
-                        ""
-                      ).toLowerCase()
-                    ]
+                  results[i].ProductCategory.replace(
+                    /\s/g,
+                    ""
+                  ).toLowerCase()
+                  ]
                   : _args.input.defaultItemCategoryId,
                 name: results[i].Name,
                 price:
                   parseFloat(results[i].SalesPrice.replace(/[$,]/g, "")) /
-                    100 || 0,
+                  100 || 0,
                 productUnitOfMeasure:
                   unitTransfer[results[i].UnitOfMeasure] || "ea",
                 unitWeight: parseFloat(results[i].UnitWeight) || 0,
@@ -4404,10 +4413,10 @@ export const Mutation = {
           if (!suppliers[j].name) continue;
           if (
             supplierList[
-              suppliers[j].name
-                .replace(/[^a-zA-Z0-9\s]/g, "")
-                .replace(/\s/g, "")
-                .toLowerCase()
+            suppliers[j].name
+              .replace(/[^a-zA-Z0-9\s]/g, "")
+              .replace(/\s/g, "")
+              .toLowerCase()
             ]
           )
             continue;
@@ -4444,17 +4453,17 @@ export const Mutation = {
                       .toLowerCase()
                   ]
                     ? supplierList[
-                        results[i].Vendor.replace(/[^a-zA-Z0-9\s]/g, "")
-                          .replace(/\s/g, "")
-                          .toLowerCase()
-                      ]
+                    results[i].Vendor.replace(/[^a-zA-Z0-9\s]/g, "")
+                      .replace(/\s/g, "")
+                      .toLowerCase()
+                    ]
                     : _args.input.defaultSupplierId,
                   itemCategoryId: itemCategoryList[
                     results[i].Category.replace(/\s/g, "").toLowerCase()
                   ]
                     ? itemCategoryList[
-                        results[i].Category.replace(/\s/g, "").toLowerCase()
-                      ]
+                    results[i].Category.replace(/\s/g, "").toLowerCase()
+                    ]
                     : _args.input.defaultItemCategoryId,
                   name: results[i].Product,
                   price: parseFloat(results[i].Price.replace(/[$,]/g, "")) || 0,
@@ -4548,15 +4557,15 @@ export const Mutation = {
               if (!results[i].CostPerItem) continue;
               const transferId = results[i].MetrcTag
                 ? transferIdByDeliveryId[
-                    deliveryIdByPackageLabel[results[i].MetrcTag]
-                  ]
+                deliveryIdByPackageLabel[results[i].MetrcTag]
+                ]
                 : _args.input.defaultNonMjTransferId;
               console.log(i, "MetrcTag>>", results[i].MetrcTag);
               console.log(i, deliveryIdByPackageLabel[results[i].MetrcTag]);
               console.log(
                 i,
                 transferIdByDeliveryId[
-                  deliveryIdByPackageLabel[results[i].MetrcTag]
+                deliveryIdByPackageLabel[results[i].MetrcTag]
                 ]
               );
               console.log(i, "transferId>>", transferId);
@@ -4564,10 +4573,10 @@ export const Mutation = {
               if (!results[i].MetrcTag) {
                 console.log(
                   _args.input.dispensaryId +
-                    "_" +
-                    results[i].PackageID +
-                    "_" +
-                    results[i].Product
+                  "_" +
+                  results[i].PackageID +
+                  "_" +
+                  results[i].Product
                 );
                 const createNonMjPackage = await context.prisma.package.upsert({
                   where: {
@@ -4642,8 +4651,8 @@ export const Mutation = {
                   results[i].Product.replace(/\s/g, "").toLowerCase()
                 ]
                   ? productIdByName[
-                      results[i].Product.replace(/\s/g, "").toLowerCase()
-                    ]
+                  results[i].Product.replace(/\s/g, "").toLowerCase()
+                  ]
                   : null,
                 packageLabel: pLabel,
                 originalQty: parseFloat(results[i].OriginalQuantity || 0),
@@ -4751,15 +4760,15 @@ export const Mutation = {
               const transferId =
                 results[i].Iscannabis == "Yes"
                   ? transferIdByDeliveryId[
-                      deliveryIdByPackageLabel[results[i].PackageID]
-                    ]
+                  deliveryIdByPackageLabel[results[i].PackageID]
+                  ]
                   : _args.input.defaultNonMjTransferId;
               console.log(i, "MetrcTag>>", results[i].PackageID);
               console.log(i, deliveryIdByPackageLabel[results[i].PackageID]);
               console.log(
                 i,
                 transferIdByDeliveryId[
-                  deliveryIdByPackageLabel[results[i].PackageID]
+                deliveryIdByPackageLabel[results[i].PackageID]
                 ]
               );
               console.log(i, "transferId>>", transferId);
@@ -4767,10 +4776,10 @@ export const Mutation = {
               if (results[i].Iscannabis == "No") {
                 console.log(
                   _args.input.dispensaryId +
-                    "_" +
-                    results[i].PackageID +
-                    "_" +
-                    results[i].Product
+                  "_" +
+                  results[i].PackageID +
+                  "_" +
+                  results[i].Product
                 );
                 const createNonMjPackage = await context.prisma.package.upsert({
                   where: {
@@ -4843,8 +4852,8 @@ export const Mutation = {
                   results[i].Product.replace(/\s/g, "").toLowerCase()
                 ]
                   ? productIdByName[
-                      results[i].Product.replace(/\s/g, "").toLowerCase()
-                    ]
+                  results[i].Product.replace(/\s/g, "").toLowerCase()
+                  ]
                   : null,
                 packageLabel: pLabel,
                 // originalQty: parseFloat(results[i].OriginalQuantity || 0),
@@ -5192,11 +5201,11 @@ export const Mutation = {
               .toLowerCase()
           ]
             ? customerIdListByLicense[
-                orders[i].cannabisLicense
-                  .replace(/\s/g, "")
-                  .replace(/-/g, "")
-                  .toLowerCase()
-              ]
+            orders[i].cannabisLicense
+              .replace(/\s/g, "")
+              .replace(/-/g, "")
+              .toLowerCase()
+            ]
             : null;
           console.log(i, " customerId>>> ", customerId);
           await context.prisma.order.update({
@@ -5297,11 +5306,11 @@ export const Mutation = {
               .toLowerCase()
           ]
             ? customerIdListByLicense[
-                orders[i].cannabisLicense
-                  .replace(/\s/g, "")
-                  .replace(/-/g, "")
-                  .toLowerCase()
-              ]
+            orders[i].cannabisLicense
+              .replace(/\s/g, "")
+              .replace(/-/g, "")
+              .toLowerCase()
+            ]
             : null;
           console.log(i, " customerId>>> ", customerId);
           await context.prisma.order.update({
@@ -5406,8 +5415,8 @@ export const Mutation = {
 
               const productNameGot = orderItems[i].metrcItemName
                 ? productNameByMetrcName[
-                    orderItems[i].metrcItemName.replace(/\s/g, "").toLowerCase()
-                  ]
+                orderItems[i].metrcItemName.replace(/\s/g, "").toLowerCase()
+                ]
                 : "";
 
               console.log(
@@ -5427,7 +5436,7 @@ export const Mutation = {
               if (productIdByName[productNameGot])
                 productId =
                   productIdByName[
-                    productNameGot.replace(/\s/g, "").toLowerCase()
+                  productNameGot.replace(/\s/g, "").toLowerCase()
                   ];
               const cost = costByPackageLabel[orderItems[i].packageLabel] || 0;
               const costAmount = cost * orderItems[i].quantity;

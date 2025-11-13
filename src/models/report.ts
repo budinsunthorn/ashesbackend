@@ -4,9 +4,10 @@ import { NotifyType } from "../generated/graphql";
 import * as userModel from '../models/user'
 
 export const getPrintSettingByDispensaryId = async (context, dispensaryId) => {
-    return context.prisma.printSetting.findMany({
+    const printSetting = await context.prisma.printSetting.findMany({
         where: { dispensaryId: dispensaryId || undefined },
     })
+    return printSetting
 }
 
 export const getExitLabelByOrderId = async (context, orderId) => {
