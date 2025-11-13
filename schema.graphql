@@ -513,7 +513,9 @@ type DrawerReportResult {
   registerName: String!
   startedBy: String!
   startedAt: String!
+  startNote: String
   endedAt: String
+  endNote: String
   startingBalance: Float
   discrepancyReason: String
   cashPayments: Float

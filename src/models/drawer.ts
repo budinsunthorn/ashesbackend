@@ -224,7 +224,9 @@ export const getDrawerReportByDrawerId = async (context, drawerId) => {
             registerName: drawer.register,
             startedBy: drawer.user.name,
             startedAt: drawer.createdAt,
+            startNote: drawer.note,
             endedAt: drawer.endedAt,
+            endNote: drawer.comment,
 
             startingBalance: startingBalance,
             discrepancyReason: drawer.discrepancyReason,
