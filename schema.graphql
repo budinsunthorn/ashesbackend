@@ -1237,7 +1237,7 @@ type PrintSetting {
   marginLeft: Float!
   marginRight: Float!
   fontSize: Float!
-  fontFamily: String!
+  fontFamily: String
   topText: String!
   bottomText: String!
   createdAt: DateTime!
