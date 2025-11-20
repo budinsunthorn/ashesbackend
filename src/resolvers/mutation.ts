@@ -4134,6 +4134,7 @@ export const Mutation = {
                 amount: orderItems[j].TotalPrice,
                 costAmount: 0,
                 metrcItemName: orderItems[j].ProductName,
+                mjType: OrderMjType.MJ
               };
               console.log("item: ", j, " ", orderItem);
               const orderItemCreate = await context.prisma.orderItem.create({
