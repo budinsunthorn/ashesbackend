@@ -1199,14 +1199,12 @@ export const Mutation = {
               standardLimitUnit
             );
           }
-          const limitAmountAfterAdded =
-            purchaseLimit[product.itemCategory.purchaseLimitType] |
-            (0 + convertedWeight) |
-            0;
-          // console.log("current >>>", purchaseLimit[product.itemCategory.purchaseLimitType])
-          // console.log("convertedWeight >>>", convertedWeight)
-          // console.log("standardLimitAmount >>>", standardLimitAmount)
-          // console.log("limitAmountAfterAdded >>>", limitAmountAfterAdded)
+          const currentAmount = purchaseLimit[product.itemCategory.purchaseLimitType] | 0
+          const limitAmountAfterAdded = currentAmount + convertedWeight
+          console.log("current >>>", purchaseLimit[product.itemCategory.purchaseLimitType])
+          console.log("convertedWeight >>>", convertedWeight)
+          console.log("standardLimitAmount >>>", standardLimitAmount)
+          console.log("limitAmountAfterAdded >>>", limitAmountAfterAdded)
           if (limitAmountAfterAdded > standardLimitAmount)
             return throwManualError(
               400,
