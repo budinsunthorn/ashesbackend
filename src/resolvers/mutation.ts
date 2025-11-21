@@ -1199,14 +1199,12 @@ export const Mutation = {
               standardLimitUnit
             );
           }
-          const limitAmountAfterAdded =
-            purchaseLimit[product.itemCategory.purchaseLimitType] |
-            (0 + convertedWeight) |
-            0;
-          // console.log("current >>>", purchaseLimit[product.itemCategory.purchaseLimitType])
-          // console.log("convertedWeight >>>", convertedWeight)
-          // console.log("standardLimitAmount >>>", standardLimitAmount)
-          // console.log("limitAmountAfterAdded >>>", limitAmountAfterAdded)
+          const currentAmount = purchaseLimit[product.itemCategory.purchaseLimitType] | 0
+          const limitAmountAfterAdded = currentAmount + convertedWeight
+          console.log("current >>>", purchaseLimit[product.itemCategory.purchaseLimitType])
+          console.log("convertedWeight >>>", convertedWeight)
+          console.log("standardLimitAmount >>>", standardLimitAmount)
+          console.log("limitAmountAfterAdded >>>", limitAmountAfterAdded)
           if (limitAmountAfterAdded > standardLimitAmount)
             return throwManualError(
               400,
@@ -4134,6 +4132,7 @@ export const Mutation = {
                 amount: orderItems[j].TotalPrice,
                 costAmount: 0,
                 metrcItemName: orderItems[j].ProductName,
+                mjType: OrderMjType.MJ
               };
               console.log("item: ", j, " ", orderItem);
               const orderItemCreate = await context.prisma.orderItem.create({
@@ -4348,10 +4347,10 @@ export const Mutation = {
                   ]
                   : _args.input.defaultSupplierId,
                 itemCategoryId: itemCategoryList[
-                  results[i].ProductCategory.replace(/\s/g, "").toLowerCase()
+                  results[i].Category.replace(/\s/g, "").toLowerCase()
                 ]
                   ? itemCategoryList[
-                  results[i].ProductCategory.replace(
+                  results[i].Category.replace(
                     /\s/g,
                     ""
                   ).toLowerCase()
@@ -4359,10 +4358,10 @@ export const Mutation = {
                   : _args.input.defaultItemCategoryId,
                 name: results[i].Name,
                 price:
-                  parseFloat(results[i].SalesPrice.replace(/[$,]/g, "")) /
+                  parseFloat(results[i].Price.replace(/[$,]/g, "")) /
                   100 || 0,
                 productUnitOfMeasure:
-                  unitTransfer[results[i].UnitOfMeasure] || "ea",
+                  unitTransfer[results[i].UOM] || "ea",
                 unitWeight: parseFloat(results[i].UnitWeight) || 0,
                 netWeight: parseFloat(results[i].NetWeight) || 0,
                 isConnectedWithPackage: false,
@@ -5772,81 +5771,81 @@ export const Mutation = {
       };
     } else return throwUnauthorizedError();
   },
-  importGrowflowSupplier: async (_parent, _args, context) => {
-    if (context.role.includes(UserType.USER)) {
-      const results: any = [];
-      let vendors: any = [];
-      // Replace 'path/to/your/file.csv' with the path to your CSV file
-      try {
-        await fs
-          .createReadStream("./src/migration/growflow/suppliers.csv")
-          .pipe(csv())
-          .on("data", (data) => results.push(data))
-          .on("end", async () => {
-            // console.log(results);
-            vendors = results.map((vendorRecord) => {
-              return {
-                Name: vendorRecord.Name,
-                LicenseNumber: vendorRecord.LicenseNumber,
-                Address: vendorRecord.Address,
-                Street: vendorRecord.Street,
-                Zip: vendorRecord.Zip,
-                City: vendorRecord.City,
-                Email: vendorRecord.Email,
-                Phone: vendorRecord.Phone,
-              };
-            });
-            // console.log(results)
-            for (let i = 0; i < vendors.length; i++) {
-              if (vendors[i].Vendorname == "" || vendors[i].Vendorcode == "")
-                continue;
-              const supplierUpsert = await context.prisma.supplier.upsert({
-                where: {
-                  organizationId_businessLicense: {
-                    organizationId: _args.input.organizationId,
-                    businessLicense: vendors[i].LicenseNumber,
-                  },
-                },
-                update: {
-                  name: vendors[i].Name,
-                  businessLicense: vendors[i].LicenseNumber,
-                  phone: vendors[i].Phone,
-                  email: vendors[i].Email,
-                  locationAddress: vendors[i].Address,
-                  locationCity: vendors[i].City,
-                  locationZipCode: vendors[i].Zip,
-                },
-                create: {
-                  organizationId: _args.input.organizationId,
-                  isActive: true,
-                  supplierType: SupplierType.Other,
-                  name: vendors[i].Name,
-                  businessLicense: vendors[i].LicenseNumber,
-                  phone: vendors[i].Phone,
-                  email: vendors[i].Email,
-                  locationAddress: vendors[i].Address,
-                  locationCity: vendors[i].City,
-                  locationZipCode: vendors[i].Zip,
-                },
-              });
-              console.log(
-                vendors[i].Name,
-                parseFloat(vendors[i].LicenseNumber)
-              );
-            }
+  // importGrowflowSupplier: async (_parent, _args, context) => {
+  //   if (context.role.includes(UserType.USER)) {
+  //     const results: any = [];
+  //     let vendors: any = [];
+  //     // Replace 'path/to/your/file.csv' with the path to your CSV file
+  //     try {
+  //       await fs
+  //         .createReadStream("./src/migration/growflow/suppliers.csv")
+  //         .pipe(csv())
+  //         .on("data", (data) => results.push(data))
+  //         .on("end", async () => {
+  //           // console.log(results);
+  //           vendors = results.map((vendorRecord) => {
+  //             return {
+  //               Name: vendorRecord.Name,
+  //               LicenseNumber: vendorRecord.LicenseNumber,
+  //               Address: vendorRecord.Address,
+  //               Street: vendorRecord.Street,
+  //               Zip: vendorRecord.Zip,
+  //               City: vendorRecord.City,
+  //               Email: vendorRecord.Email,
+  //               Phone: vendorRecord.Phone,
+  //             };
+  //           });
+  //           // console.log(results)
+  //           for (let i = 0; i < vendors.length; i++) {
+  //             if (vendors[i].Vendorname == "" || vendors[i].Vendorcode == "")
+  //               continue;
+  //             const supplierUpsert = await context.prisma.supplier.upsert({
+  //               where: {
+  //                 organizationId_businessLicense: {
+  //                   organizationId: _args.input.organizationId,
+  //                   businessLicense: vendors[i].LicenseNumber,
+  //                 },
+  //               },
+  //               update: {
+  //                 name: vendors[i].Name,
+  //                 businessLicense: vendors[i].LicenseNumber,
+  //                 phone: vendors[i].Phone,
+  //                 email: vendors[i].Email,
+  //                 locationAddress: vendors[i].Address,
+  //                 locationCity: vendors[i].City,
+  //                 locationZipCode: vendors[i].Zip,
+  //               },
+  //               create: {
+  //                 organizationId: _args.input.organizationId,
+  //                 isActive: true,
+  //                 supplierType: SupplierType.Other,
+  //                 name: vendors[i].Name,
+  //                 businessLicense: vendors[i].LicenseNumber,
+  //                 phone: vendors[i].Phone,
+  //                 email: vendors[i].Email,
+  //                 locationAddress: vendors[i].Address,
+  //                 locationCity: vendors[i].City,
+  //                 locationZipCode: vendors[i].Zip,
+  //               },
+  //             });
+  //             console.log(
+  //               vendors[i].Name,
+  //               parseFloat(vendors[i].LicenseNumber)
+  //             );
+  //           }
 
-            // const creation = await context.prisma.customer.createMany({
-            //     data: customers,
-            //     skipDuplicates: true
-            // });
-            console.log("Vendor imported>>>>>", vendors.length);
-          });
-      } catch (e) {
-        // console.log("ff", e)
-      }
-      return {
-        count: 0,
-      };
-    } else return throwUnauthorizedError();
-  },
+  //           // const creation = await context.prisma.customer.createMany({
+  //           //     data: customers,
+  //           //     skipDuplicates: true
+  //           // });
+  //           console.log("Vendor imported>>>>>", vendors.length);
+  //         });
+  //     } catch (e) {
+  //       // console.log("ff", e)
+  //     }
+  //     return {
+  //       count: 0,
+  //     };
+  //   } else return throwUnauthorizedError();
+  // },
 } satisfies MutationResolvers;
