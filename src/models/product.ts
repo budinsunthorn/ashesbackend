@@ -196,7 +196,7 @@ export const getAllProductsByDispensaryIdWithPages = async (context, args) => {
         }
     }
 
-    if (args.categoryType) {
+    if (args.categoryType !== 'all') {
         where.itemCategoryId = args.categoryType
     }
 
