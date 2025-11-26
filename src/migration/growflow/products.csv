@@ -10,7 +10,7 @@ Edible,"(25:25) 500mg CBD/500mg THC, Raspberry - Gummies*",$25.00 ,Each,500,"Ope
 Edible,"(25:25) 500mg CBD/500mg THC, Tropical - Gummies",$35.00 ,Each,500,"Operating Mfg, LLC",85,
 Edible,"(25:25) 500mg CBD/500mg THC, Tropical - Gummies",$35.00 ,Each,500,"Operating Mfg, LLC",85,
 Edible,"(25:5) 500mg CBD/100mg THC, Watermelon - Gummies",$20.00 ,Each,100,"Operating Mfg, LLC",74,
-Edible,"(25:5) 500mg CBD/100mg THC, Watermelon - Gummies",$30.00 ,Each,100,"Operating Mfg, LLC",85,8 Items
+Edible,"(25:5) 500mg CBD/100mg THC, Watermelon - Gummies",$30.00 ,Each,100,"Operating Mfg, LLC",85,7 Items
 Edible,"(25:50:2) 500mg CBD/1000mg THC/40mg CBG, Meta Dose - Gummies",$40.00 ,Each,1000,"Operating Mfg, LLC",74,
 Edible,"(25:50:2) 500mg CBD/1000mg THC/40mg CBG, Meta Dose - Gummies",$40.00 ,Each,1000,"Operating Mfg, LLC",74,
 Edible,(25:50:5) 500mg CBD:1000mg THC:100mg CBG - Meta Dose Gummies,$38.00 ,Each,1000,"Operating Mfg, LLC",74,
@@ -51,7 +51,7 @@ Edible,1000mg - Gummies - Apple Pear,$0.01 ,Each,100,BEST DISPENSARIES LLC PROCE
 Edible,1000mg - PunchBar- Milk Chocolate Toffee,$0.01 ,Each,22,BEST DISPENSARIES LLC PROCESSING,22,
 Edible,1000mg NANO THC Sour Green Apple - Gummies,$25.00 ,Each,1000,"Operating Mfg, LLC",74,
 Edible,1000mg NANO THC Sour Green Apple - Gummies,$28.00 ,Each,1000,"Operating Mfg, LLC",74,
-Edible,1000mg NANO THC Sour Green Apple - Gummies,$29.00 ,Each,1000,"Operating Mfg, LLC",74,1 Items
+Edible,1000mg NANO THC Sour Green Apple - Gummies,$29.00 ,Each,1000,"Operating Mfg, LLC",74,
 Edible,1000mg NANO THC Tropical Sativa - Gummies,$25.00 ,Each,1000,"Operating Mfg, LLC",74,
 Edible,1000mg NANO THC Tropical Sativa - Gummies*,$29.00 ,Each,1000,"Operating Mfg, LLC",74,
 Edible,1000mg THC Blueberry Indica - Gummies,$25.00 ,Each,1000,"Operating Mfg, LLC",74,1 Items
@@ -103,8 +103,8 @@ Edible,1906 Drops- Love Pouch,$4.00 ,Each,3,"Ryco Solutions, LLC",0.11,1 Items
 Capsule,1906 Drops- Love Pouch,$4.00 ,Each,3,"Ryco Solutions, LLC",,
 DELTA 8 CAPSULE,1906 GO POUCH,$11.00 ,Each,,JBSII LLC,,
 PILLS,1906 Genius Tins- 75mg | 75mg CBD,$20.00 ,Each,75,"CSCIV, LLC",22.5,3 Items
-PILLS,1906 Go Tins- 100mg | 100mg CBD,$20.00 ,Each,100,"CSCIV, LLC",15,4 Items
-PILLS,1906 Love Tins- 75mg | 75mg CBD,$20.00 ,Each,75,"CSCIV, LLC",22.5,5 Items
+PILLS,1906 Go Tins- 100mg | 100mg CBD,$20.00 ,Each,100,"CSCIV, LLC",15,3 Items
+PILLS,1906 Love Tins- 75mg | 75mg CBD,$20.00 ,Each,75,"CSCIV, LLC",22.5,3 Items
 DELTA 8 CAPSULE,1906 POUCH BOOST D-8,$11.00 ,Each,,JBSII LLC,,3 Items
 DELTA 8 CAPSULE,1906 POUCH SINGLE BLISS,$11.00 ,Each,,JBSII LLC,,
 DELTA 8 CAPSULE,1906 POUCH SINGLE BLISS D-8,$11.00 ,Each,,JBSII LLC,,1 Items
@@ -177,11 +177,11 @@ CARTRIDGE D8,2G HHC-NILLA MINT DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
 CARTRIDGE D8,2G JEN & BERRY - DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
 CARTRIDGE D8,2G PINIA - DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
 CARTRIDGE D8,2G-D8- BOO BERRY DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
-CARTRIDGE D8,2G-D8- BOO BERRY DISPOSABLE,$30.00 ,Each,,86,,2 Items
+CARTRIDGE D8,2G-D8- BOO BERRY DISPOSABLE,$30.00 ,Each,,86,,1 Items
 CARTRIDGE,2G-D8-BERRY SLASH DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
 CONCENTRATE D8,2G-D8-BERRY SLASH DISPOSABLE,$30.00 ,Each,,86,,
 CARTRIDGE D8,2G-D8-BERRY SLUSH DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
-CARTRIDGE D8,2G-D8-BLUE MAGIC-DISPOSABLE,$30.00 ,Each,,86,,3 Items
+CARTRIDGE D8,2G-D8-BLUE MAGIC-DISPOSABLE,$30.00 ,Each,,86,,
 CARTRIDGE D8,2G-D8-CEREAL KILLER- DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
 CARTRIDGE D8,2G-D8-CEREAL KILLER- DISPOSABLE,$30.00 ,Each,,86,,
 CARTRIDGE D8,2G-D8-COOKIES & CASTLES-DISPOSABLE,$30.00 ,Each,,86,,1 Items
@@ -208,7 +208,7 @@ CONCENTRATE,2G-D8-PUNCH-DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
 CARTRIDGE D8,2G-D8-RUNTZ POP-DISPOSABLE,$30.00 ,Each,,86,,
 CARTRIDGE D8,2G-D8-SUNDAY SCARIES-DISPOSABLE,$30.00 ,Each,,86,,
 CARTRIDGE D8,2G-D8-SUNSHINE N CELLO-DISPOSABLE,$30.00 ,Each,,86,,
-CARTRIDGE D8,2G-D8-TWISTED BERRY-DISPOSABLE,$30.00 ,Each,,86,,2 Items
+CARTRIDGE D8,2G-D8-TWISTED BERRY-DISPOSABLE,$30.00 ,Each,,86,,1 Items
 CARTRIDGE D8,2G-D8-WHITE RABBIT-DISPOSABLE,$30.00 ,Each,,86,,
 CARTRIDGE D8,2G-HHC-NILLA MINT DISPOSABLE,$25.00 ,Each,,EIGHTY SIX,,
 CARTRIDGE D8,2G-JELLY JAM-DISPOSABLE,$30.00 ,Each,,86,,
@@ -374,7 +374,7 @@ THCA,Bananas THC-A LEMON OCTANE,$5.00 ,Each,,Zion Ventures/ Nirvana Distributors
 THCA,Bananas THC-A PINK PANTHER,$5.00 ,Each,,Zion Ventures/ Nirvana Distributors,,
 DELTA 8,Bananas THC-A SOUR LIFTER,$5.00 ,Each,,Zion Ventures/ Nirvana Distributors,,
 Concentrate,Best Day Ever Full-Spec Oil,$30.00 ,Each,1,"BDE, LLC",,1 Items
-Tincture,Best Day Ever Spectrum-V Tincture,$45.00 ,Each,150,"BDE, LLC",0.5,26 Items
+Tincture,Best Day Ever Spectrum-V Tincture,$45.00 ,Each,150,"BDE, LLC",0.5,24 Items
 Bulk Flower,Big Bud - Animal Mints - (g),,Grams,,Grassfire LLC,,
 Bulk Flower,Big Bud - Animal Mints x ICC - (g),,Grams,,Grassfire LLC,,
 Bulk Flower,Big Bud - Animal Mints x ICC - (g),,Grams,,Grassfire LLC,,
@@ -408,7 +408,7 @@ Concentrate,Blackberry Kush Carts | 2-Pack,$19.00 ,Each,2,"Empire Labs, LLC",,
 Bulk Flower,Blackwell - Cap Junky flowers,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,-2.6505 Items
 Bulk Flower,Blackwell - Lemon Cherry Gelato flowers,$10.00 ,Each,1,"Blackwell Investments, LLC",,
 Concentrate,Blue Cheese Carts | 2-Pack,$19.00 ,Each,2,"Empire Labs, LLC",,
-Bulk Flower,Blue Dream - Blue Dream - 3.5g,,Each,3.5,"ROCKTOP PRODUCTION, LLC",,11 Items
+Bulk Flower,Blue Dream - Blue Dream - 3.5g,,Each,3.5,"ROCKTOP PRODUCTION, LLC",,
 Bulk Flower,Blue Dream A,,Grams,,"Mannland Cultivators, LLC",,
 Bulk Flower,Blue Enigma - Flower,$1.00 ,Grams,,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,Blue Enigma - Flower,$0.01 ,Grams,,BEST DISPENSARIES LLC PROCESSING,,
@@ -443,8 +443,8 @@ Bulk Flower,Bulk Flower - Stanky Ass - Comp Entry - 320-090324-A,$0.01 ,Each,2,B
 Bulk Flower,Bulk Flower - Wild Cherry - Comp Entry - 320-090324-B,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,Bulk Flower - Wild Cherry - Comp Entry - 320-090324-B,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,Bulk Flower- Dante's Inferno,$0.01 ,Each,7,SawOaks CannaFarm LLC,,
-Bulk Flower,Bulk Flower- Dante's Inferno,,Each,7,SawOaks CannaFarm LLC,,24 Items
-Bulk Flower,Bulk Flower- Dante's Inferno,$25.00 ,Each,3.5,SawOaks CannaFarm LLC,,45 Items
+Bulk Flower,Bulk Flower- Dante's Inferno,,Each,7,SawOaks CannaFarm LLC,,22 Items
+Bulk Flower,Bulk Flower- Dante's Inferno,$25.00 ,Each,3.5,SawOaks CannaFarm LLC,,37 Items
 Bulk Flower,Bulk Flower- Dante's Inferno,$0.01 ,Grams,,SawOaks CannaFarm LLC,,3 g
 Bulk Flower,Bulk Flower- Dante's Inferno,,Grams,,SawOaks CannaFarm LLC,,
 Bulk Flower,Bulk Flower- Dante's Inferno,$0.01 ,Grams,,SawOaks CannaFarm LLC,,3 g
@@ -480,10 +480,10 @@ EDIBLE D8,CHEEBA CHEWS SINGLE THCV CHARGED D-8,$29.00 ,Each,,JBSII LLC,,
 EDIBLE D8,CHEEBA CHEWS SINGLE TRIFECTA 50 MG D-8,$15.00 ,Each,,JBSII LLC,,
 EDIBLE D8,CHEEBA CHEWS SINGLE TRIFECTA D-8,$29.00 ,Each,,JBSII LLC,,
 EDIBLE D8,CHEEBA CHEWS SINGLE TRIFECTA D-8,$29.00 ,Each,,JBSII LLC,,
-THCA,CHEECH & CHONG'S 2 CT. 1 GRAM PREROOL POUCH,$20.00 ,Each,,OPTA NEVADA GROUP,,42 Items
-EDIBLE DELTA 9,CHEECH & CHONG'S DELTA 9 GUMMIES,$25.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,47 Items
-THCA,CHEECH & CHONG'S MINI BLAZERS 5 PACK,$25.00 ,Each,,OPTA NEVADA GROUP,,55 Items
-THCA FLOWER,CHEECH & CHONG'S THCA 3.5 G FLOWER,$35.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,87 Items
+THCA,CHEECH & CHONG'S 2 CT. 1 GRAM PREROOL POUCH,$20.00 ,Each,,OPTA NEVADA GROUP,,41 Items
+EDIBLE DELTA 9,CHEECH & CHONG'S DELTA 9 GUMMIES,$25.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,42 Items
+THCA,CHEECH & CHONG'S MINI BLAZERS 5 PACK,$25.00 ,Each,,OPTA NEVADA GROUP,,54 Items
+THCA FLOWER,CHEECH & CHONG'S THCA 3.5 G FLOWER,$35.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,82 Items
 THCA FLOWER,CHEECH & CHONG'S THCA 3.5 G FLOWER,$35.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,
 THCA,CHEECH & CHONG'S THCA VAPE CART COPY,$55.00 ,Each,,OPTA NEVADA GROUP,,7 Items
 THCA,CHEECH & cHONG'S THCA VAPE CART,$55.00 ,Each,,OPTA NEVADA GROUP,,
@@ -684,6 +684,7 @@ Topical,"COWBOY CUP 25 Ambrosia Body Butter 0.75oz 1:1 B-Caryophyllene, Myrcene,
 Preroll,COWBOY CUP 25 Apple Drip Cavi Cone 11035,$0.01 ,Each,1,"CAVIAR GOLD - GRAY CLOUD, LLC",,
 Bulk Flower,COWBOY CUP 25 Astroglide #1 (BUD),$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Concentrate,COWBOY CUP 25 BHO LITUP MAC-1,$0.01 ,Each,1,BEST DISPENSARIES LLC PROCESSING,,
+Bulk Flower,COWBOY CUP 25 BLACK CHERRY GELATO,$0.01 ,Each,2,"Sol Terra, L.L.C.",,
 Bulk Flower,COWBOY CUP 25 BULK FLOWER - Crippy,$0.01 ,Each,1,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 BULK FLOWER - Hippie Crasher,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 BULK FLOWER - Hippie Crasher,$0.01 ,Each,1,BEST DISPENSARIES LLC PROCESSING,,
@@ -700,12 +701,15 @@ Edible,COWBOY CUP 25 Bee Elevated - Project NEO,$0.01 ,Each,100,BEE ELEVATED LLC
 Edible,COWBOY CUP 25 Bee Elevated - S'mores Kit,$0.01 ,Each,100,BEE ELEVATED LLC,77,
 Edible,COWBOY CUP 25 Bee Elevated Chips & Chocolate Bar,$0.01 ,Each,1060,BEE ELEVATED LLC,100,
 Concentrate,COWBOY CUP 25 Big Daddy- Sherb Cake - Sherb Cake-1g,$0.01 ,Each,1,Grassfire LLC,,
+Bulk Flower,COWBOY CUP 25 Black Cherry Gelato,$0.01 ,Each,2,"Sol Terra, L.L.C.",,20 Items
 Concentrate,COWBOY CUP 25 Black Velvet x White Inferno Liquid Diamond Rosin Disposable 0.5g,$0.01 ,Each,0.5,BEST DISPENSARIES LLC PROCESSING,,
 CARTRIDGE,COWBOY CUP 25 Black Velvet x White Inferno Liquid Diamond Rosin Disposable 0.5g,$0.01 ,Each,,BEST DISPENSARIES LLC PROCESSING,,
 Concentrate,COWBOY CUP 25 Black Velvet x White Inferno Liquid Diamond Rosin Disposable 0.5g,$0.01 ,Each,0.5,BEST DISPENSARIES LLC PROCESSING,,
 Edible,COWBOY CUP 25 Blaster | Super Nova - Nano | Blue Raspberry Lemonade | 500mg,$0.01 ,Each,500,"Vice Capital Extraction, LLC",60,
+Bulk Flower,COWBOY CUP 25 Blue Ivory #3 Flower,$0.01 ,Each,2,BSMelton Farms LLC,,
 Concentrate,COWBOY CUP 25 Blue Unicorn Poop Budder,$0.01 ,Each,1,BEST DISPENSARIES LLC PROCESSING,,
 Preroll,COWBOY CUP 25 Blue Zushi Infused Pre-roll 1g,$0.01 ,Each,1,BEST DISPENSARIES LLC PROCESSING,,
+Bulk Flower,COWBOY CUP 25 Blueberry Cupcake,$0.01 ,Each,2,Savage Organics LLC,,
 Preroll,COWBOY CUP 25 Boofed Up,$0.01 ,Each,4,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Buds - Candy Gas,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Buds - Presidential Runtz,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
@@ -757,6 +761,7 @@ Concentrate,COWBOY CUP 25 FUGU,$0.01 ,Each,1,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Facelift,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Facelift,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Flamin Cheetoz (BUD),$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
+Bulk Flower,COWBOY CUP 25 Flavor Town,$0.01 ,Each,2,"Sol Terra, L.L.C.",,20 Items
 Bulk Flower,COWBOY CUP 25 Flower - Big ChainZ - (g),$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Flower - Cap Junky (36.07%) Bulk,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Flower - Cap Junky2 (36.07%) - 2g,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
@@ -871,6 +876,7 @@ Bulk Flower,COWBOY CUP 25 Stanky Ass - 126-091525-F,$0.01 ,Each,2,BEST DISPENSAR
 Bulk Flower,COWBOY CUP 25 Strawnangie Spritzer,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Sudz (BUD),$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 Super Boof Flower/Bud,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
+Bulk Flower,COWBOY CUP 25 Superboof,$0.01 ,Each,2,"Sol Terra, L.L.C.",,20 Items
 Concentrate,COWBOY CUP 25 Superboof Full Spectrum Cart 1g,$0.01 ,Each,1,US PRIME CONTRACTS LTD. CO.,,
 Edible,COWBOY CUP 25 Tajin-uana,$0.01 ,Each,350,Xen Xtracts LLC,30,
 Concentrate,COWBOY CUP 25 Tribe Splits - Colorado Chem - Hybrid - Live Diamonds - Disposable Cartridge - 2g,$0.01 ,Each,0.5,BEST DISPENSARIES LLC PROCESSING,,
@@ -884,6 +890,7 @@ Concentrate,COWBOY CUP 25 Xen - Strawberry Jelly - Liquid Diamonds 1g,$0.01 ,Eac
 Preroll,COWBOY CUP 25 Xen- Banana Stacker - 2g,$0.01 ,Each,2,Xen Xtracts LLC,,
 Topical,COWBOY CUP 25 Xengay Medicated Cream,$0.01 ,Each,84,Xen Xtracts LLC,,
 Bulk Flower,COWBOY CUP 25 Zoo Cake,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
+Bulk Flower,COWBOY CUP 25 Zourz,$0.01 ,Each,2,Savage Organics LLC,,
 Concentrate,COWBOY CUP 25 apple mac live resin cowboy 1 gram,$0.01 ,Each,1,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,COWBOY CUP 25 flower-sticky buns,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Edible,COWBOY CUP 25 milk bar 250mg,$0.01 ,Each,345,Black Rain Processing LLC,78,
@@ -903,21 +910,21 @@ Edible,CRUMBLE - LEMON POPPY COOKIES,$10.00 ,Each,50,STASH HOUSE DISTRIBUTION,60
 Edible,CRUMBLE - LEMON STREUSEL BLONDIES,$10.00 ,Each,50,STASH HOUSE DISTRIBUTION,60,
 Edible,CRUMBLE - PEANUT BUTTER COOKIES,$10.00 ,Each,50,STASH HOUSE DISTRIBUTION,60,
 Edible,CRUMBLE - SALTED CARAMEL BROWNIES,$10.00 ,Each,50,,60,
-Edible,CRUMBLE - SNICKERDOODLE TOFFEE,$10.00 ,Each,50,STASH HOUSE DISTRIBUTION,60,2 Items
+Edible,CRUMBLE - SNICKERDOODLE TOFFEE,$10.00 ,Each,50,STASH HOUSE DISTRIBUTION,60,1 Items
 Edible,CRUMBLE - WHITE CHOCOLATE CRANBERRY,$10.00 ,Each,50,STASH HOUSE DISTRIBUTION,60,
 Bulk Flower,Cadillac Rainbow Bud,$0.01 ,Grams,,BEST DISPENSARIES LLC PROCESSING,,
 Edible,Camino Gummies 100mg THC/ 20mg CBN- Midnight Blueberry,$18.00 ,Each,100,"CSCIV, LLC",72,9 Items
-Edible,Camino Gummies 100mg THC/ 20mg CBN- Midnight Blueberry,$18.00 ,Each,100,"CSCIV, LLC",72,12 Items
-Edible,Camino High Dose 1000mg- Midnight Blueberry,$24.00 ,Each,1000,"CSCIV, LLC",144,20 Items
-Edible,Camino High Dose 1000mg- Pineapple Habanero,$21.00 ,Each,1000,"CSCIV, LLC",144,17 Items
-Edible,Camino High Dose 1000mg- Watermelon Lemonade,$21.00 ,Each,1000,"CSCIV, LLC",144,14 Items
-Edible,Camino High Dose 1000mg- Wild Berry,$21.00 ,Each,1000,"CSCIV, LLC",144,16 Items
+Edible,Camino Gummies 100mg THC/ 20mg CBN- Midnight Blueberry,$18.00 ,Each,100,"CSCIV, LLC",72,11 Items
+Edible,Camino High Dose 1000mg- Midnight Blueberry,$24.00 ,Each,1000,"CSCIV, LLC",144,18 Items
+Edible,Camino High Dose 1000mg- Pineapple Habanero,$21.00 ,Each,1000,"CSCIV, LLC",144,16 Items
+Edible,Camino High Dose 1000mg- Watermelon Lemonade,$21.00 ,Each,1000,"CSCIV, LLC",144,11 Items
+Edible,Camino High Dose 1000mg- Wild Berry,$21.00 ,Each,1000,"CSCIV, LLC",144,9 Items
 Edible,Camino High Dose 1000mg- Wild Berry COPY,$21.00 ,Each,1000,"CSCIV, LLC",144,
-Edible,Camino High Dose 1000mg- Yuzu,$24.00 ,Each,1000,"CSCIV, LLC",144,8 Items
+Edible,Camino High Dose 1000mg- Yuzu,$24.00 ,Each,1000,"CSCIV, LLC",144,7 Items
 Edible,Camino High Dose 1000mg- Yuzu,$21.00 ,Each,1000,"CSCIV, LLC",144,
 Edible,Camino Midnight Blueberry- 100mg | 20mg CBN,$17.00 ,Each,100,"CSCIV, LLC",72,
-Edible,Camino Pineapple Habanero- 100mg,$12.00 ,Each,100,"CSCIV, LLC",72,11 Items
-Edible,Camino Watermelon Lemonade- 100mg,$12.00 ,Each,100,"CSCIV, LLC",65,9 Items
+Edible,Camino Pineapple Habanero- 100mg,$12.00 ,Each,100,"CSCIV, LLC",72,10 Items
+Edible,Camino Watermelon Lemonade- 100mg,$12.00 ,Each,100,"CSCIV, LLC",65,8 Items
 Edible,Camino Wild Berry- 100mg,$12.00 ,Each,100,"CSCIV, LLC",72,8 Items
 CONCENTRATE,Candy Fumes Ice Water Hash,$0.01 ,Each,,BEST DISPENSARIES LLC PROCESSING,,14 Items
 Edible,Caramel Crunchies 100mg PK,$10.00 ,Each,100,Midwest Extractions LLC,2010,1 Items
@@ -927,7 +934,7 @@ Preroll,Carbon Fiber - 2.4g Preroll (2x1.2g preroll) - Organically Grown,$10.00 
 Preroll,Carbon Fiber - 2.4g Preroll (2x1.2g preroll) - Organically Grown,$10.00 ,Each,1,Midwest Extractions LLC,,
 Bulk Flower,Carbon Fiber - Big Bud - Bulk Flower,,Grams,,Grassfire LLC,,
 Bulk Flower,Carbon Fiber FLOWER PACKAGE,$0.01 ,Grams,,BEST DISPENSARIES LLC PROCESSING,,
-Bulk Flower,Carbon Fiber Shake,$35.00 ,Each,28,"OKLAFORNIA, LLC",,1 Items
+Bulk Flower,Carbon Fiber Shake,$35.00 ,Each,28,"OKLAFORNIA, LLC",,
 Edible,Cheeba CHEEBA CHEWS MEGA STRENGTH 1000MG - SOUR APPLE,$30.00 ,Each,1000,"Ryco Solutions, LLC",100,
 Edible,Cheeba CHEEBA CHEWS MEGA STRENGTH 1000MG - STRAWBERRY,$30.00 ,Each,1000,"Ryco Solutions, LLC",100,1 Items
 Edible,Cheeba Chews - 100mg live rosin melt - apricot,$22.00 ,Each,100,"Ryco Solutions, LLC",45,8 Items
@@ -1044,7 +1051,7 @@ Preroll,Country Cannabis - Infused Pre-Roll - Banana OG I - 1g,$10.00 ,Each,1,AO
 Preroll,Country Cannabis - Infused Pre-Roll - Blackberry Kush I - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Blackberry Kush I - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Blackberry Kush I - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
-Preroll,Country Cannabis - Infused Pre-Roll - Blueberry Lemonade H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,5 Items
+Preroll,Country Cannabis - Infused Pre-Roll - Blueberry Lemonade H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,3 Items
 Preroll,Country Cannabis - Infused Pre-Roll - Blueberry Lemonade H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Cantaloupe Haze S - 1g,$10.00 ,Each,1,AOK VENTURES INC,,17 Items
 Preroll,Country Cannabis - Infused Pre-Roll - Cantaloupe Haze S - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
@@ -1054,18 +1061,18 @@ Preroll,Country Cannabis - Infused Pre-Roll - Grape Og I - 1g,$10.00 ,Each,1,AOK
 Preroll,Country Cannabis - Infused Pre-Roll - Huckleberry H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Peach Gelato H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Pineapple Express S - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
-Preroll,Country Cannabis - Infused Pre-Roll - Pineapple Express S - 1g,$10.00 ,Each,1,AOK VENTURES INC,,4 Items
+Preroll,Country Cannabis - Infused Pre-Roll - Pineapple Express S - 1g,$10.00 ,Each,1,AOK VENTURES INC,,2 Items
 Preroll,Country Cannabis - Infused Pre-Roll - Strawberry Cough S - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Watermelon I - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Zkittles H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Zkittles H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
 Preroll,Country Cannabis - Infused Pre-Roll - Zkittles H - 1g,$10.00 ,Each,1,AOK VENTURES INC,,
-Edible,Country Cannabis - Lemonade (250mg) - 12fl oz,$14.00 ,Each,250,AOK VENTURES INC,12,28 Items
+Edible,Country Cannabis - Lemonade (250mg) - 12fl oz,$14.00 ,Each,250,AOK VENTURES INC,12,22 Items
 Edible,Country Cannabis - Maple Pecan Cookie - 50g,$17.00 ,Each,300,AOK VENTURES INC,52,
-Edible,Country Cannabis - Milk Chocolate Bar - 45g,$20.00 ,Each,576,AOK VENTURES INC,45,4 Items
+Edible,Country Cannabis - Milk Chocolate Bar - 45g,$20.00 ,Each,576,AOK VENTURES INC,45,2 Items
 Preroll,Country Cannabis - Mini's - Blackberry Kush I - 2g - 2g,$21.00 ,Each,2,AOK VENTURES INC,,
 Edible,Country Cannabis - Munchie Cookie - 70g,$16.00 ,Each,70,AOK VENTURES INC,70,
-Edible,Country Cannabis - Pot Hole Brownie - 77g,$24.00 ,Each,1000,AOK VENTURES INC,77,3 Items
+Edible,Country Cannabis - Pot Hole Brownie - 77g,$24.00 ,Each,1000,AOK VENTURES INC,77,1 Items
 Edible,Country Cannabis - Pot Hole Brownie - 77g,$20.00 ,Each,2.7,,77,
 Edible,Country Cannabis - Pumpkin Spice Coffee Cake - 80g,$12.00 ,Each,115,AOK VENTURES INC,80,
 Edible,Country Cannabis - Rainbow Crisp - 56g,$14.00 ,Each,175,AOK VENTURES INC,56,
@@ -1193,7 +1200,7 @@ Edible,Dixie 200MG THC GUMMY - TROPIC TWIST (INDICA),$20.00 ,Each,200,"Ryco Solu
 Edible,Dixie Berry Blaze 100mg,$10.00 ,Each,100,"CSCIV, LLC",62,23 Items
 Edible,Dixie High Dose Berry Blaze 1000mg,$20.00 ,Each,1000,"CSCIV, LLC",62,10 Items
 Edible,Dixie High Dose Watermellow Synergy 1:1,$15.00 ,Each,500,"CSCIV, LLC",62,17 Items
-Edible,Dixie Live Rosin Blue Raspberry Indica Bursts,$10.00 ,Each,100,"CSCIV, LLC",60,32 Items
+Edible,Dixie Live Rosin Blue Raspberry Indica Bursts,$10.00 ,Each,100,"CSCIV, LLC",60,31 Items
 Edible,Dixie Live Rosin Mango Hybrid Bursts,$10.00 ,Each,100,"CSCIV, LLC",60,15 Items
 Edible,Dixie Live Rosin Strawberry Sativa Bursts,$10.00 ,Each,100,"CSCIV, LLC",60,
 Edible,Dixie Live Rosin Strawberry Sativa Bursts,$10.00 ,Each,100,"CSCIV, LLC",60,
@@ -1203,7 +1210,7 @@ Edible,Dixie Synergy Berry Focused 2:1:1 Gummies,$10.00 ,Each,50,"CSCIV, LLC",62
 Edible,Dixie Synergy Berry Focused 2:1:1 Gummies,$17.00 ,Each,50,"CSCIV, LLC",62,
 Edible,Dixie Synergy Sleepyberry 2:1:1 Gummies,$17.00 ,Each,50,"CSCIV, LLC",62,41 Items
 Edible,Dixie Synergy Sleepyberry 2:1:1 Gummies,$10.00 ,Each,50,"CSCIV, LLC",62,
-Edible,Dixie Tropic Twist 100mg,$10.00 ,Each,100,"CSCIV, LLC",62,5 Items
+Edible,Dixie Tropic Twist 100mg,$10.00 ,Each,100,"CSCIV, LLC",62,3 Items
 Edible,Dixie Tropic Twist 200mg,$13.00 ,Each,200,"CSCIV, LLC",62,12 Items
 Edible,Dixie Watermelon Synergy 1:1,$13.00 ,Each,100,"CSCIV, LLC",62133,24 Items
 Preroll,Dogwalker 15 Pk - Bruce Banner - 2487,$40.00 ,Each,7.5,"Aero Labs Extraction and Testing, LLC",,
@@ -1226,10 +1233,10 @@ Concentrate,Drool 2g- Runtz,$35.00 ,Each,2,"CSCIV, LLC",,
 Concentrate,Drool 2g- Strawberry Cough,$35.00 ,Each,2,"CSCIV, LLC",,
 Concentrate,Drool Concentrates 4g- Cherry Bomb,$35.00 ,Each,4,"CSCIV, LLC",,
 Concentrate,Drool Concentrates 4g- Peanut Butter Smores,$35.00 ,Each,4,"CSCIV, LLC",,
-Concentrate,Drool Diamond Series 1g- Alaskan TF,$30.00 ,Each,1,"CSCIV, LLC",,10 Items
-Concentrate,Drool Diamond Series 1g- Okie Gas,$30.00 ,Each,1,"CSCIV, LLC",,10 Items
-Concentrate,Drool Diamond Series 1g- Permanent Marker,$30.00 ,Each,1,"CSCIV, LLC",,11 Items
-Concentrate,Drool Diamond Series 1g- Tahoe OG,$30.00 ,Each,1,"CSCIV, LLC",,10 Items
+Concentrate,Drool Diamond Series 1g- Alaskan TF,$30.00 ,Each,1,"CSCIV, LLC",,3 Items
+Concentrate,Drool Diamond Series 1g- Okie Gas,$30.00 ,Each,1,"CSCIV, LLC",,5 Items
+Concentrate,Drool Diamond Series 1g- Permanent Marker,$30.00 ,Each,1,"CSCIV, LLC",,10 Items
+Concentrate,Drool Diamond Series 1g- Tahoe OG,$30.00 ,Each,1,"CSCIV, LLC",,7 Items
 Preroll,Drool Infused Blunt- Gas Basket,$0.01 ,Each,2,"CSCIV, LLC",,
 Preroll,Drool Infused Blunt- Tropical Runtz,$24.00 ,Each,2,"CSCIV, LLC",,
 Preroll,Durban Poison (2 x 1.2g Prerolls),$10.00 ,Each,2.4,Midwest Extractions LLC,,
@@ -1277,7 +1284,7 @@ Bulk Flower,Flower & Buds - STAY PUFT - (g),$0.01 ,Each,2,BEST DISPENSARIES LLC 
 Bulk Flower,Flower - Animal Gelato Cone - (7g),,Grams,,Oklahoma Medical Growers,,
 Bulk Flower,Flower - Animal Gelato Cone - (7g),,Each,7,Oklahoma Medical Growers,,
 Bulk Flower,Flower - Animal Gelato Cone - (7g),,Each,7,Oklahoma Medical Growers,,
-Bulk Flower,Flower - Animal Gelato Cone - (7g) COPY,,Each,7,Oklahoma Medical Growers,,14 Items
+Bulk Flower,Flower - Animal Gelato Cone - (7g) COPY,,Each,7,Oklahoma Medical Growers,,13 Items
 Bulk Flower,Flower - Animal Mintz - (g),,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Bulk Flower,Flower - Animal Sundae - (g),,Grams,,3 Leafs Dispensary LLC,,
 Bulk Flower,Flower - Animal Tsunami - (g),$10.00 ,Grams,,Oklahoma Medical Growers,,
@@ -1302,6 +1309,7 @@ Bulk Flower,Flower - Blue Unicorn Poop -SMALLS,,Each,7,Karma's Garden LLC,,
 Bulk Flower,Flower - Blue Unicorn Poop -SMALLS (g),,Each,7,Karma's Garden LLC,,
 Bulk Flower,Flower - Butterfingerz - (g),,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Bulk Flower,Flower - Cakes and Cream (Fem) - (g),,Grams,,Spencer Manufacturing LLC,,
+Bulk Flower,Flower - Cap Junky (33.93%) - 3.5g,$17.00 ,Each,3.5,Platinum Farms LLC,,122 Items
 Bulk Flower,Flower - Cheetah Piss - (g),,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Bulk Flower,Flower - Cheetah Piss - (g) COPY,,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Bulk Flower,Flower - Chem De La Chem - (g),,Grams,,OKLAHOMA MEDICAL GROWERS,,
@@ -1316,7 +1324,7 @@ Bulk Flower,Flower - Garlic Cocktail - (g),$0.01 ,Each,2,BEST DISPENSARIES LLC P
 Bulk Flower,Flower - Garlic Crusher - (7g),,Each,7,Oklahoma Medical Growers,,
 Bulk Flower,Flower - Garlic Crusher - (7g),,Each,7,Oklahoma Medical Growers,,
 Bulk Flower,Flower - Garlic Crusher - (7g),,Grams,,Oklahoma Medical Growers,,
-Bulk Flower,Flower - Garlic Crusher - (7g) COPY,,Each,7,Oklahoma Medical Growers,,5 Items
+Bulk Flower,Flower - Garlic Crusher - (7g) COPY,,Each,7,Oklahoma Medical Growers,,3 Items
 Bulk Flower,Flower - Gary Payton - (g),,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Bulk Flower,Flower - Gelato Cake - (g),,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Bulk Flower,Flower - Gello Gelato - (g),,Grams,,Greenstone Farms Inc.,,
@@ -1488,7 +1496,7 @@ Edible,Gold Rush Yummy Gummy Wild Cherry 1000mg,$28.00 ,Each,1000,"C3E Managemen
 Edible,Gold Rush Yummy Gummy Wild Cherry 1000mg,$28.00 ,Each,1000,"C3E Management, LLC",120,
 Edible,Gold Rush Yummy Gummy Wild Cherry 2000mg,$39.00 ,Each,2000,"C3E Management, LLC",160,1 Items
 Edible,Gold Rush Yummy Gummy Wild Cherry 2000mg 5g,$34.00 ,Each,2000,"C3E Management, LLC",100,
-Edible,Gold Rush Yummy Gummy Wild Cherry CBN:CBD:THC 100mg:100mg:100mg,$14.00 ,Each,100,"C3E Management, LLC",80,15 Items
+Edible,Gold Rush Yummy Gummy Wild Cherry CBN:CBD:THC 100mg:100mg:100mg,$14.00 ,Each,100,"C3E Management, LLC",80,11 Items
 Edible,Gold Rush Yummy Gummy Wild Cherry Full Spectrum 250mg,$16.00 ,Each,250,"C3E Management, LLC",80,13 Items
 CARTRIDGE,Golden Papaya 2g Disposable,$0.01 ,Each,,BEST DISPENSARIES LLC PROCESSING,,
 Concentrate,Golden Sink Live Resin 1g,$35.00 ,Each,1.2,"C3E Management, LLC",,
@@ -1511,19 +1519,19 @@ Bulk Flower,Green Crack $19 Flower,,Grams,,FOGGY CREEK FARMS,,
 Edible,Green Hornet 1000MG SOUR GUMMIES - BLUE RASPBERRY,$42.00 ,Each,1000,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Black Cherry 100MG THC : 100MG CBD,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Black Cherry 100MG THC : 100MG CBD,$18.00 ,Each,100,"Ryco Solutions, LLC",65,
-Edible,Green Hornet Black Cherry 1:1,$10.00 ,Each,100,"CSCIV, LLC",65,6 Items
+Edible,Green Hornet Black Cherry 1:1,$10.00 ,Each,100,"CSCIV, LLC",65,5 Items
 Edible,Green Hornet Blue Raspberry Hybrid 1000MG,$42.00 ,Each,1000,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Blue Raspberry Hybrid 1000MG,$42.00 ,Each,1000,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Blue Raspberry Indica 100MG,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Blue Raspberry Indica 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,21 Items
 Edible,Green Hornet Blue Raspberry Live Resin- GMO,$12.00 ,Each,100,"CSCIV, LLC",65,1 Items
-Edible,Green Hornet Blue Raspberry Live Resin- Wedding Cake,$12.00 ,Each,100,"CSCIV, LLC",65,36 Items
+Edible,Green Hornet Blue Raspberry Live Resin- Wedding Cake,$12.00 ,Each,100,"CSCIV, LLC",65,35 Items
 Edible,Green Hornet Blue Raspberry Sativa 100MG,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Blue Raspberry Sativa 100MG,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Blue Raspberry Sativa 100MG,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
-Edible,Green Hornet Blue Raspberry Sativa 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,20 Items
-Edible,Green Hornet Dragon Fruit Ache Away Gummies- 100mg,$17.00 ,Each,100,"CSCIV, LLC",65,8 Items
-Edible,Green Hornet Energy 100MG,$18.00 ,Each,100,"Ryco Solutions, LLC",65,14 Items
+Edible,Green Hornet Blue Raspberry Sativa 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,19 Items
+Edible,Green Hornet Dragon Fruit Ache Away Gummies- 100mg,$17.00 ,Each,100,"CSCIV, LLC",65,6 Items
+Edible,Green Hornet Energy 100MG,$18.00 ,Each,100,"Ryco Solutions, LLC",65,13 Items
 Edible,Green Hornet Energy 100MG,$18.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Goodnight Grape,$17.00 ,Each,100,"CSCIV, LLC",65,26 Items
 Edible,Green Hornet Gummy - Ache Away CDC:CBD:THC - Dragon Fruit,$20.00 ,Each,100,"Ryco Solutions, LLC",65,
@@ -1531,11 +1539,11 @@ Edible,Green Hornet Gummy Goodnight Grape,$20.00 ,Each,100,"Ryco Solutions, LLC"
 Edible,Green Hornet Gummy Goodnight Grape,$20.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Gummy Goodnight Grape,$20.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Gummy Goodnight Grape,$20.00 ,Each,100,"Ryco Solutions, LLC",65,
-Edible,Green Hornet Live Resin Blue Raspberry GMO 100mg,$12.00 ,Each,100,"CSCIV, LLC",65,45 Items
+Edible,Green Hornet Live Resin Blue Raspberry GMO 100mg,$12.00 ,Each,100,"CSCIV, LLC",65,44 Items
 Edible,Green Hornet Mandarin Orange Energy 100MG THC + 5MG THCV,$17.00 ,Each,100,"CSCIV, LLC",65,
 Edible,Green Hornet Mixed Fruit 10mg Indica,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Mixed Fruit Indica 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,4 Items
-Edible,Green Hornet Mixed Fruit Live Resin- Birthday Cake,$12.00 ,Each,100,"CSCIV, LLC",65,33 Items
+Edible,Green Hornet Mixed Fruit Live Resin- Birthday Cake,$12.00 ,Each,100,"CSCIV, LLC",65,32 Items
 Edible,Green Hornet Mixed Fruit Live Resin- Sundae Driver,$12.00 ,Each,100,"CSCIV, LLC",65,26 Items
 Edible,Green Hornet Mixed Fruit Sativa 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,1 Items
 Edible,Green Hornet Mixed Fruit Trifecta 100MG 1:1:1 CBG/CBD/THC,$18.00 ,Each,100,"Ryco Solutions, LLC",65,10 Items
@@ -1546,15 +1554,15 @@ Edible,Green Hornet Sour 500mg Watermelon,$13.00 ,Each,500,"CSCIV, LLC",65,
 Edible,Green Hornet Sour 500mg Watermelon,$17.00 ,Each,500,"CSCIV, LLC",65,
 Edible,Green Hornet Sour Mega Dose Green Apple 2000mg,$34.00 ,Each,200,"CSCIV, LLC",65,9 Items
 Edible,Green Hornet Sour Mega Dose Mixed Fruit 2000mg,$33.00 ,Each,2000,"CSCIV, LLC",65,
-Edible,Green Hornet Sour Mega Dose Mixed Fruit 2000mg,$34.00 ,Each,2000,"CSCIV, LLC",65,9 Items
+Edible,Green Hornet Sour Mega Dose Mixed Fruit 2000mg,$34.00 ,Each,2000,"CSCIV, LLC",65,7 Items
 Edible,Green Hornet Sour Mega Dose Watermelon 2000mg,$34.00 ,Each,2000,"CSCIV, LLC",65,
 Edible,Green Hornet Watermelon 500MG Hybrid,$32.00 ,Each,500,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Watermelon Indica 100MG,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Watermelon Indica 100MG,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
-Edible,Green Hornet Watermelon Indica 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,27 Items
+Edible,Green Hornet Watermelon Indica 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,26 Items
 Edible,Green Hornet Watermelon Sativa 100Mg,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
 Edible,Green Hornet Watermelon Sativa 100Mg,$15.00 ,Each,100,"Ryco Solutions, LLC",65,
-Edible,Green Hornet Watermelon Sativa 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,23 Items
+Edible,Green Hornet Watermelon Sativa 100mg,$10.00 ,Each,100,"CSCIV, LLC",65,22 Items
 Bulk Flower,Greenleaf Cannavations - Flower - Animal Face x Kush Mints - (g),,Grams,,Midwest Extractions LLC,,
 Bulk Flower,Greenleaf Cannavations - Flower - Animal Face x Kush Mints - (g),,Grams,,Midwest Extractions LLC,,
 Bulk Flower,Greenleaf Cannavations - Flower - Colin OG - (g),$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
@@ -1650,7 +1658,7 @@ Accessories,ICE CUBE REACHING OUT TRAY SMALL,$10.00 ,Each,,"CAVIAR GOLD - GRAY C
 Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,$0.01 ,Each,3.5,Halo Fury Refinements LLC,,
 Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,$0.01 ,Each,2,Halo Fury Refinements LLC,,
 Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,,Each,3.5,Halo Fury Refinements LLC,,
-Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,,Each,3.5,Halo Fury Refinements LLC,3.5,60 Items
+Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,,Each,3.5,Halo Fury Refinements LLC,3.5,55 Items
 Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,$0.02 ,Each,3.5,Halo Fury Refinements LLC,,
 Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,$0.02 ,Each,2,Halo Fury Refinements LLC,,
 Bulk Flower,ISN'T SHE LOVELY (G) - FLOWER,$0.01 ,Each,3.5,Halo Fury Refinements LLC,,
@@ -1674,16 +1682,16 @@ Preroll,Infs - PreRoll - Watermelon - 0125,$35.00 ,Grams,,Proud Mary Cannabis,,
 Preroll,Infs - PreRoll - Watermelon - 0125,$35.00 ,Each,1,Proud Mary Cannabis,,
 Preroll,Infs - PreRoll - Watermelon - 0125,$8.00 ,Each,1,Proud Mary Cannabis,,
 Preroll,Infused - Banana Punch - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",1,
-Preroll,Infused - Blueberry Headband - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,329 Items
+Preroll,Infused - Blueberry Headband - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,282 Items
 Preroll,Infused - Blueberry Headband - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
 Preroll,Infused - Blueberry Octane - 1g,$10.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
 Preroll,Infused - Bubble Gum Gelato - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
 Preroll,Infused - Cherry Mac - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
-Preroll,Infused - Citrus Slurricane - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",1,20 Items
+Preroll,Infused - Citrus Slurricane - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",1,18 Items
 Preroll,Infused - Colorado Sunset - 1g,$10.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
-Preroll,Infused - Colorado Sunset - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,13 Items
+Preroll,Infused - Colorado Sunset - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,5 Items
 Preroll,Infused - DreamZ - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",1,26 Items
-Preroll,Infused - Durban Poison - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,315 Items
+Preroll,Infused - Durban Poison - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,294 Items
 Preroll,Infused - Durban Poison - 1g,$10.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
 Preroll,Infused - EmergenC - 1g,$5.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
 Preroll,Infused - EmergenC - 1g,$8.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
@@ -1765,8 +1773,8 @@ Preroll,Jet Fuel OG - 2.4g Preroll (2x1.2g preroll) - Organically Grown,$10.00 ,
 Preroll,Jet Fuel OG - 2.4g Preroll (2x1.2g preroll) - Organically Grown,$10.00 ,Each,1,Midwest Extractions LLC,,
 Preroll,Jet Fuel OG - 2.4g Preroll (2x1.2g preroll) - Organically Grown,$10.00 ,Each,1,Midwest Extractions LLC,,
 Bulk Flower,Jet Fuel OG - Big Bud - Bulk Flower,,Grams,,Grassfire LLC,,
-Edible,Joybombs Original Fruit 100mg,$16.00 ,Each,100,"CSCIV, LLC",50,4 Items
-Edible,Joybombs Sour Fruit 100mg,$16.00 ,Each,100,"CSCIV, LLC",50,10 Items
+Edible,Joybombs Original Fruit 100mg,$16.00 ,Each,100,"CSCIV, LLC",50,
+Edible,Joybombs Sour Fruit 100mg,$16.00 ,Each,100,"CSCIV, LLC",50,9 Items
 Edible,Joybombs Tropical Haze 100mg,$16.00 ,Each,100,"CSCIV, LLC",50,7 Items
 Preroll,Jubel | Pre-Roll | Galactic Warheadz | 1 Gram,$0.01 ,Each,1,"Cicada Labs, LLC",1,
 Preroll,Jubel | Pre-Roll | Karamel Kut Throat | 1 Gram,$0.01 ,Each,1,"Cicada Labs, LLC",,
@@ -1801,7 +1809,7 @@ Concentrate,Kaboom - Blue Junky 14g Baller Jar,$69.00 ,Each,14,"C3E Management, 
 Concentrate,Kaboom - Cherry Glue 14g Baller Jar,$69.00 ,Each,14,"C3E Management, LLC",,
 Concentrate,Kaboom - Cookie Pie 14g Baller Jar,$69.00 ,Each,14,"C3E Management, LLC",,
 Concentrate,Kaboom - Dragon Fruit Juice 14g Baller Jar,$69.00 ,Each,14,"C3E Management, LLC",,
-Concentrate,Kaboom - Golden Mac 3.5g Baller Jar,$25.00 ,Each,3.5,Oil Town Extracts LLC,,3 Items
+Concentrate,Kaboom - Golden Mac 3.5g Baller Jar,$25.00 ,Each,3.5,Oil Town Extracts LLC,,2 Items
 Concentrate,Kaboom - Iced Trop Cherries 3.5g Baller Jar,$25.00 ,Each,3.5,Oil Town Extracts LLC,,
 Concentrate,Kaboom - Jordanz 3.5g Baller Jar,$25.00 ,Each,3.5,Oil Town Extracts LLC,,6 Items
 Concentrate,Kaboom - Killer Delights 7g Baller Jar,$39.00 ,Each,7,"C3E Management, LLC",,
@@ -2054,6 +2062,10 @@ Preroll,Oil Traderz x OKC - Pre Roll - [Infused] - Garlic Cocktail - 1g,$5.00 ,E
 Preroll,Oil Traderz x OKC - Pre Roll - [Infused] - Gushers - 1g,$5.00 ,Each,1,Modern Medicine RX LLC,,
 Preroll,Oil Traderz x OKC - Pre Roll - [Infused] - Sherb Glue - 1g,$5.00 ,Each,1,Modern Medicine RX LLC,,-1 Items
 Concentrate,Oil Traderz x OKC - Pre Roll - [Live Resin] - Rainbow Sherb - 1g,$5.00 ,Each,1,Modern Medicine RX LLC,,
+Bulk Flower,Okie Nugz - 5g - Blueberry Muffin (47.18%),$19.00 ,Each,5,Platinum Farms LLC,,9 Items
+Bulk Flower,Okie Nugz - 5g - Granddaddy Purple (45.20%),$19.00 ,Each,5,Platinum Farms LLC,,10 Items
+Bulk Flower,Okie Nugz - 5g - Strawberry Banana (45.07%),$19.00 ,Each,5,Platinum Farms LLC,,10 Items
+Bulk Flower,Okie Nugz - 5g - Watermelon O.G. (42.40%),$19.00 ,Each,5,Platinum Farms LLC,,10 Items
 Preroll,OozeX - Rainbow Sherbet - 0.5g/10Pk Prerolls,$30.00 ,Each,5,ARGENT CANNABIS ,,
 Preroll,OozeX - Watermelon Splash - 0.5g/10Pk Prerolls,$30.00 ,Each,5,ARGENT CANNABIS ,,
 Edible,Orange CBG:THC 200mg Pack,$14.00 ,Each,150,"C3E Management, LLC",60,
@@ -2125,7 +2137,7 @@ Preroll,Pharmicated - Pre-Rolls (Flower) - 1g - Caramel Cookies,$0.01 ,Each,2,BE
 Preroll,Pharmicated - Pre-Rolls (Internal Infused) - 1.5g - Gruntz,$0.01 ,Each,3,BEST DISPENSARIES LLC PROCESSING,3,
 Preroll,Pharmicated - Pre-Rolls (Internal Infused) - 1.5g - Watermelon Mojito,$0.01 ,Each,3,BEST DISPENSARIES LLC PROCESSING,3,
 CARTRIDGE,Pharmicated - Vape Cartridges (Disposable) - 1g - Tiger's Blood,$0.01 ,Each,,BEST DISPENSARIES LLC PROCESSING,,
-Bulk Flower,Pie Scream 4g Prepack,$35.00 ,Each,4,"Green Country Research, Inc.",,54 Items
+Bulk Flower,Pie Scream 4g Prepack,$35.00 ,Each,4,"Green Country Research, Inc.",,15 Items
 Bulk Flower,Pie Scream Flower Cured,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Bulk Flower,Pie Scream Flower Cured,,Grams,,VAPORHERBS LIMITED LIABILITY CORPORATION,,
 Bulk Flower,Pie Scream Flower Cured,$0.01 ,Each,3.5,BEST DISPENSARIES LLC PROCESSING,,
@@ -2211,7 +2223,7 @@ Bulk Flower,RUNTZ - $10 KEIF,$5.00 ,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Accessories,RUNTZ - BATTERY,$18.00 ,Each,,Zion Ventures/ Nirvana Distributors,,36 Items
 Accessories,RUNTZ-BATTERY,$20.00 ,Each,,Zion Ventures/ Nirvana Distributors,,20 Items
 Bulk Flower,Rancid Rainbow,$0.01 ,Grams,,BEST DISPENSARIES LLC PROCESSING,,
-Bulk Flower,Rancid Rainbow - Flower/Buds,,Grams,,SUMMIT GENETICS LLC,,335 g
+Bulk Flower,Rancid Rainbow - Flower/Buds,,Grams,,SUMMIT GENETICS LLC,,212.5 g
 Bulk Flower,Rancid Rainbow - Flower/Buds,,Each,3.5,SUMMIT GENETICS LLC,,
 Edible,Raspberry Indica 100mg THC Liquid Diamonds - Spinello,$10.00 ,Each,100,AVITAS/SHI CO,12,
 Preroll,Red Mimosa,$5.00 ,Each,1,"The Oklahoma Cannabis Factory, LLC",,
@@ -2285,7 +2297,7 @@ Concentrate,Rocktop - Resin 1g - Lava Cake - 1g,$9.00 ,Each,1,"ROCKTOP PRODUCTIO
 Concentrate,Rocktop - Resin 1g - Lava Cake - 1g,$10.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
 Concentrate,Rocktop - Resin 1g - Mac Oreoz - 1g,$10.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,
 CONCENTRATE,Rocktop - Resin 1g - Mothership - 1g,$9.00 ,Each,,"ROCKTOP PRODUCTION, LLC",,
-Concentrate,Rocktop - Resin 1g - Mothership - 1g COPY,$9.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,3 Items
+Concentrate,Rocktop - Resin 1g - Mothership - 1g COPY,$9.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,2 Items
 CONCENTRATE,Rocktop - Resin 1g - Mothership - 1g COPY,$9.00 ,Each,,"ROCKTOP PRODUCTION, LLC",,
 CONCENTRATE,Rocktop - Resin 1g - Orange Push Pop - 1g,$9.00 ,Each,,"ROCKTOP PRODUCTION, LLC",,
 Concentrate,Rocktop - Resin 1g - Orangenana - 1g,$10.00 ,Each,1,"ROCKTOP PRODUCTION, LLC",,1 Items
@@ -2333,7 +2345,7 @@ Concentrate,Rove ID Blue Dream RTU,$44.00 ,Each,1,"CSCIV, LLC",,
 Concentrate,Rove ID CHERRY GELATO RTU,$44.00 ,Each,1,"CSCIV, LLC",,
 Concentrate,Rove ID Fruit Punch,$44.00 ,Each,1,"CSCIV, LLC",,2 Items
 Concentrate,Rove ID Fruit Punch RELOAD,$35.00 ,Each,1,"CSCIV, LLC",1,
-Concentrate,Rove ID Maui Waui,$44.00 ,Each,1,"CSCIV, LLC",,12 Items
+Concentrate,Rove ID Maui Waui,$44.00 ,Each,1,"CSCIV, LLC",,5 Items
 Concentrate,Rove ID Maui Waui RELOAD,$35.00 ,Each,1,"CSCIV, LLC",,
 Concentrate,Rove ID Skywalker OG,$44.00 ,Each,2,"CSCIV, LLC",,
 Concentrate,Rove ID Skywalker OG RELOAD,$35.00 ,Each,1,"CSCIV, LLC",,
@@ -2341,7 +2353,7 @@ Concentrate,Rove ID Watermelon Zkittlez RELOAD,$35.00 ,Each,1,"CSCIV, LLC",1,
 Concentrate,Rove Maui Waui RELOADS,$35.00 ,Each,1,"CSCIV, LLC",,
 Concentrate,Rove Northern Lights RELOADS,$35.00 ,Each,1,STASH HOUSE DISTRIBUTION,,
 CONSENTRATE,Rove Northern Lights RELOADS,$35.00 ,Each,,STASH HOUSE DISTRIBUTION,,
-Concentrate,Rove Northern Lights RTU,$44.00 ,Each,1,"CSCIV, LLC",,11 Items
+Concentrate,Rove Northern Lights RTU,$44.00 ,Each,1,"CSCIV, LLC",,7 Items
 Concentrate,Rove Orange Crush RELOADS,$35.00 ,Each,1,"CSCIV, LLC",,1 Items
 Concentrate,Rove Orange Crush RTU,$44.00 ,Each,1,"CSCIV, LLC",,
 Concentrate,Rove Strawberry Cough RTU,$45.00 ,Each,1,"CSCIV, LLC",,
@@ -2372,7 +2384,7 @@ Edible,SMOKIEZ PASSIONFRUIT - 1000MG,$65.00 ,Each,1000,AVITAS/SHI CO,4.24,
 DELTA 8 PREROLL,SMOOTH,$5.00 ,Each,,Zion Ventures/ Nirvana Distributors,,
 Concentrate,SMT Live Resin 1g,$35.00 ,Each,1.2,"C3E Management, LLC",,
 Bulk Flower,SNOWY SHERLATO (G) - FLOWER,$0.02 ,Each,2,Halo Fury Refinements LLC,,1 Items
-Bulk Flower,SNOWY SHERLATO (G) - FLOWER,,Each,3.5,Halo Fury Refinements LLC,3.5,54 Items
+Bulk Flower,SNOWY SHERLATO (G) - FLOWER,,Each,3.5,Halo Fury Refinements LLC,3.5,42 Items
 Bulk Flower,SNOWY SHERLATO (G) - FLOWER,$0.01 ,Grams,,Halo Fury Refinements LLC,,
 Bulk Flower,SOAP - $10 KIEF,$5.00 ,Grams,,OKLAHOMA MEDICAL GROWERS,,
 Bulk Flower,SOUR DIESEL $20 FLOWER,,Grams,,OKLAHOMA MEDICAL GROWERS,,
@@ -2548,7 +2560,7 @@ Edible,TAN B2 - 33291 - 105mg THC/10pc box,$14.00 ,Each,105,NW Confections OK 24
 EDIBLE D8,TANGIE TERROR -OMG 1000 MG,$30.00 ,Each,,86,,1 Items
 Accessories,TERP PEN,$30.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,
 THCA,THCA 1 GRAM PREROLL,$5.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,
-THCA FLOWER,THCA 3.5 GRAM FLOWER,$35.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,7 Items
+THCA FLOWER,THCA 3.5 GRAM FLOWER,$35.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,2 Items
 THCA FLOWER,THCA 7 GRAM FLOWER,$60.00 ,Each,,SEVEN  STAR DISTRIBUTORS,,5 Items
 THCA FLOWER,THCA BLUEBERRY PIE 3.5G,$30.00 ,Each,,Zion Ventures/ Nirvana Distributors,,
 THCA FLOWER,THCA CHERRY PIE,$30.00 ,Each,,Zion Ventures/ Nirvana Distributors,,
@@ -2637,7 +2649,7 @@ Edible,Transcendence - Gummies - 500mg - Pink Lemonade - 40g,$12.00 ,Each,500,AO
 Edible,Transcendence - Gummies - 500mg - Tangerine - 40g,$12.00 ,Each,500,AOK VENTURES INC,40,
 Edible,Transcendence - Gummies - 500mg - Tangerine - 40g,$12.00 ,Each,500,AOK VENTURES INC,40,1 Items
 Edible,Transcendence - Gummies - 500mg - Watermelon - 40g,$12.00 ,Each,500,AOK VENTURES INC,40,
-Edible,Transcendence - Gummies - 500mg - Watermelon - 40g,$12.00 ,Each,500,AOK VENTURES INC,13.5,6 Items
+Edible,Transcendence - Gummies - 500mg - Watermelon - 40g,$12.00 ,Each,500,AOK VENTURES INC,13.5,4 Items
 Edible,Transcendence - Gummies 500mg - Peach - 40g,$12.00 ,Each,500,AOK VENTURES INC,40,
 Edible,Transcendence - Gummies 500mg - Peach - 40g,$12.00 ,Each,500,AOK VENTURES INC,40,
 Edible,Transcendence - Gummies 500mg - Strawberry - 1g,$12.00 ,Each,500,AOK VENTURES INC,40,
@@ -2783,11 +2795,11 @@ Edible,Wana CLASSIC 500MG THC SOUR GUMMIES - BLOOD ORANGE - SATIVA,$38.00 ,Each,
 Edible,Wana CLASSIC 500MG THC SOUR GUMMIES - RASPBERRY LIMEADE - INDICA,$38.00 ,Each,500,"Ryco Solutions, LLC",45,
 Edible,Wana CLASSIC HIGH DOSE 50MG SINGLES - BLOOD ORANGE,$4.00 ,Each,50,"Ryco Solutions, LLC",0.16,
 Edible,Wana Classic 1000 Raspberry Limeade,$30.00 ,Each,1000,"Ryco Solutions, LLC",3.18,1 Items
-Edible,Wana Dream Berry Stay Asleep 100mg,$17.00 ,Each,100,"CSCIV, LLC",45,7 Items
+Edible,Wana Dream Berry Stay Asleep 100mg,$17.00 ,Each,100,"CSCIV, LLC",45,6 Items
 Edible,Wana Exotic Yuzu 2:1,$12.00 ,Each,100,"CSCIV, LLC",1.59,
 Edible,Wana FAST ASLEEP 100 MG - DREAMBERRY,$20.00 ,Each,100,"Ryco Solutions, LLC",1.59,
 Edible,Wana FAST ASLEEP 100 MG - DREAMBERRY,$20.00 ,Each,100,"Ryco Solutions, LLC",1.59,
-Edible,Wana Fast Asleep Dream Berry 100mg,$17.00 ,Each,100,"CSCIV, LLC",45,4 Items
+Edible,Wana Fast Asleep Dream Berry 100mg,$17.00 ,Each,100,"CSCIV, LLC",45,3 Items
 Edible,Wana High Dose Blood Orange Sativa 1000mg,$22.00 ,Each,1000,"CSCIV, LLC",90,10 Items
 Edible,Wana High Dose Blueberry Lemonade Indica 1000mg,$22.00 ,Each,1000,"CSCIV, LLC",90,
 Edible,Wana High Dose Raspberry Limeade Indica 1000mg,$22.00 ,Each,1000,"CSCIV, LLC",90,1 Items
@@ -2809,8 +2821,8 @@ Edible,Wana Quick Relief Cherry Cola,$18.00 ,Each,50,"CSCIV, LLC",45,8 Items
 Edible,Wana Quick Strawberry Margarita 1:1,$17.00 ,Each,100,"CSCIV, LLC",90,
 Edible,Wana Raspberry Limeade Indica 1000MG,$30.00 ,Each,1000,"CSCIV, LLC",90,
 Edible,Wana Strawberry Lemonade Hybrid 1:1,$12.00 ,Each,100,"CSCIV, LLC",45,20 Items
-Edible,Wana Watermelon Hybrid 100mg,$12.00 ,Each,100,"CSCIV, LLC",45,13 Items
-Edible,Wana Yuzu Hybrid 2:1,$12.00 ,Each,100,"CSCIV, LLC",45,13 Items
+Edible,Wana Watermelon Hybrid 100mg,$12.00 ,Each,100,"CSCIV, LLC",45,12 Items
+Edible,Wana Yuzu Hybrid 2:1,$12.00 ,Each,100,"CSCIV, LLC",45,12 Items
 Edible,Watermelon 100mg THC:CBN Liquid Diamonds - Spinello,$10.00 ,Each,100,AVITAS/SHI CO,12,
 Bulk Flower,Watermelon Crawl Flower 6.17.24,,Grams,,"High Eagle Innovation, LLC",,
 Preroll,Watermelon Diamante,$12.00 ,Each,1,AVITAS/SHI CO,,
@@ -2831,7 +2843,7 @@ Preroll,Weedsy .5g - Berries - Berries - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,
 Preroll,Weedsy .5g - Berries - Berries - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,
 Preroll,Weedsy .5g - Berries - Berries - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,
 Preroll,Weedsy .5g - Grape - Grape - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,4 Items
-Preroll,Weedsy .5g - Grape - Grape - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,30 Items
+Preroll,Weedsy .5g - Grape - Grape - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,23 Items
 Preroll,Weedsy .5g - Grape - Grape - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,
 Preroll,Weedsy .5g - Grape - Grape - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,
 Preroll,Weedsy .5g - Green Apple - Green Apple - .5g,$6.00 ,Each,0.5,AOK VENTURES INC,,
@@ -2863,7 +2875,7 @@ Preroll,Worry B Gone- Kool Hwhip- 1g preroll,$0.01 ,Each,2,BEST DISPENSARIES LLC
 Bulk Flower,Worry B Gone- Planet Sherb- Bulk Flower,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
 Preroll,Worry B Gone- Pussy Wagon- 1g preroll,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,2,
 Bulk Flower,Worry B Gone- Pussy Wagon- Bulk Flower,$0.01 ,Each,2,BEST DISPENSARIES LLC PROCESSING,,
-Edible,Wynk - Countdown - 25MG THC Drink - Berry Force,$9.00 ,Each,25,"Ryco Solutions, LLC",8.4,40 Items
+Edible,Wynk - Countdown - 25MG THC Drink - Berry Force,$9.00 ,Each,25,"Ryco Solutions, LLC",8.4,39 Items
 Edible,Wynk - Countdown - 25MG THC Drink - Orange Blast,$9.00 ,Each,25,"Ryco Solutions, LLC",8.4,
 Preroll,XXX - 2.4g (2x1.2g Prerolls),$10.00 ,Each,2.4,Midwest Extractions LLC,2.4,
 CARTRIDGE,Xen - 1g Live Resin - Purple Gelato Runtz - 1g,$0.01 ,Each,,BEST DISPENSARIES LLC PROCESSING,,
