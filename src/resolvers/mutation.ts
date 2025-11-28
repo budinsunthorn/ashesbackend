@@ -4358,8 +4358,7 @@ export const Mutation = {
                   : _args.input.defaultItemCategoryId,
                 name: results[i].Name,
                 price:
-                  parseFloat(results[i].Price.replace(/[$,]/g, "")) /
-                  100 || 0,
+                  parseFloat(results[i].Price.replace(/[$,]/g, "")) || 0,
                 productUnitOfMeasure:
                   unitTransfer[results[i].UOM] || "ea",
                 unitWeight: parseFloat(results[i].UnitWeight) || 0,
