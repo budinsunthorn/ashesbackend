@@ -4598,7 +4598,7 @@ export const Mutation = {
                     cost: parseFloat(
                       results[i].CostPerItem.replace(/[$,]/g, "")
                     ),
-                    posQty: parseFloat(results[i].CurrentQty),
+                    posQty: parseFloat(results[i].Quantity),
                     originalQty: parseFloat(results[i].OriginalQuantity),
                     isConnectedWithProduct: true,
                     ReceivedDateTime: results[i].ActivatedAt,
@@ -4616,7 +4616,7 @@ export const Mutation = {
                     cost: parseFloat(
                       results[i].CostPerItem.replace(/[$,]/g, "")
                     ),
-                    posQty: parseFloat(results[i].CurrentQty),
+                    posQty: parseFloat(results[i].Quantity),
                     originalQty: parseFloat(results[i].OriginalQuantity),
                     isConnectedWithProduct: true,
                     ReceivedDateTime: results[i].ActivatedAt,
