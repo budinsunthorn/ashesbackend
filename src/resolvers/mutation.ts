@@ -1135,12 +1135,11 @@ export const Mutation = {
             const limitWeightType = limitWeightMap[purchaseLimitType];
 
             let convertedWeight;
-
             if (item.product.productUnitOfMeasure == ProductUnitOfMeasure.ea) {
               const weight =
                 limitWeightType == LimitWeight.UnitWeight
-                  ? productUnitWeight
-                  : productNetWeight;
+                  ? item.product.unitWeight > 0 ? item.product.unitWeight : 1
+                  : item.product.netWeight > 0 ? item.product.netWeight : 1;
               const itemWeightUnit =
                 limitWeightType == LimitWeight.UnitWeight
                   ? item.product.unitOfUnitWeight
@@ -1151,6 +1150,7 @@ export const Mutation = {
                     (item.quantity / item.product.unitWeight) * weight
                   )
                   : item.quantity * weight;
+              // console.log("qty---- ", qty, item.product.isApplyUnitWeight, item.product.unitWeight, item.quantity, item.product.unitWeight, weight)
               convertedWeight = getConvertedWeight(
                 qty,
                 itemWeightUnit,
@@ -1163,7 +1163,7 @@ export const Mutation = {
                 standardLimitUnit
               );
             }
-
+            console.log("convertedWeight =========", convertedWeight)
             acc[purchaseLimitType] += convertedWeight;
             return acc;
           }, {});
@@ -1201,6 +1201,7 @@ export const Mutation = {
           }
           const currentAmount = purchaseLimit[product.itemCategory.purchaseLimitType] | 0
           const limitAmountAfterAdded = currentAmount + convertedWeight
+          console.log("purchaseLimit >>>", purchaseLimit)
           console.log("current >>>", purchaseLimit[product.itemCategory.purchaseLimitType])
           console.log("convertedWeight >>>", convertedWeight)
           console.log("standardLimitAmount >>>", standardLimitAmount)
