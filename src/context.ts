@@ -16,19 +16,22 @@ export const context: Context = {
 }
 
 export function getConvertedWeight(qty: number, itemUnit: UnitOfMeasure, limitUnit: UnitOfMeasure) {
+  console.log("                   getConvertedWeight called with:", qty, itemUnit, limitUnit)
   let convertedQty = qty
-  if(itemUnit == UnitOfMeasure.g){
-    if(limitUnit == UnitOfMeasure.oz) convertedQty = qty * 0.035274
-    if(limitUnit == UnitOfMeasure.mg) convertedQty = qty * 1000
+  if (itemUnit == UnitOfMeasure.g) {
+    if (limitUnit == UnitOfMeasure.oz) convertedQty = qty * 0.035274
+    if (limitUnit == UnitOfMeasure.mg) convertedQty = qty * 1000
   }
-  if(itemUnit == UnitOfMeasure.mg){
-    if(limitUnit == UnitOfMeasure.oz) convertedQty = qty * 0.000035274
-    if(limitUnit == UnitOfMeasure.g) convertedQty = qty * 0.001
+  if (itemUnit == UnitOfMeasure.mg) {
+    if (limitUnit == UnitOfMeasure.oz) convertedQty = qty * 0.000035274
+    if (limitUnit == UnitOfMeasure.g) convertedQty = qty * 0.001
   }
-  if(itemUnit == UnitOfMeasure.oz){
-    if(limitUnit == UnitOfMeasure.g) convertedQty = qty * 28.3495
-    if(limitUnit == UnitOfMeasure.mg) convertedQty = qty * 28349.5
+  if (itemUnit == UnitOfMeasure.oz) {
+    if (limitUnit == UnitOfMeasure.g) convertedQty = qty * 28.3495
+    if (limitUnit == UnitOfMeasure.mg) convertedQty = qty * 28349.5
   }
+  console.log("                  getConvertedWeight Result: ", convertedQty)
+
   return convertedQty
 }
 
@@ -59,7 +62,7 @@ export function formatHour(hour) {
 export function getFiveMinutesBeforeInISOStyle(dateStr) {
   const dateObj = new Date(dateStr);
   const fiveMinutesBefore = new Date(dateObj.getTime() - 5 * 60 * 1000);
-  
+
   const pad = (num, size = 2) => String(num).padStart(size, '0');
   const year = fiveMinutesBefore.getUTCFullYear();
   const month = pad(fiveMinutesBefore.getUTCMonth() + 1);
@@ -67,7 +70,7 @@ export function getFiveMinutesBeforeInISOStyle(dateStr) {
   const hours = pad(fiveMinutesBefore.getUTCHours());
   const minutes = pad(fiveMinutesBefore.getUTCMinutes());
   const seconds = pad(fiveMinutesBefore.getUTCSeconds());
-  
+
   return `${year}-${month}-${day}T${hours}:${minutes}:${seconds}Z`;
 }
 
