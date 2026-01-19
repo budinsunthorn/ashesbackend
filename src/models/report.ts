@@ -2,6 +2,7 @@ import { OrderMjType, OrderStatus, PackageStatus } from "@prisma/client";
 import { truncateToTwoDecimals, timezoneMap, formatHour } from "../context";
 import { NotifyType } from "../generated/graphql";
 import * as userModel from '../models/user'
+import { Dispensary } from "../resolvers/dispensary";
 
 export const getPrintSettingByDispensaryId = async (context, dispensaryId) => {
     const printSetting = await context.prisma.printSetting.findMany({
@@ -815,10 +816,14 @@ export const getActionHistory = async (context, args) => {
     }
 }
 
-export const getAppPrintSetting = async (context, arges) => {
+export const getAppPrintSetting = async (context, args) => {
     let appPrintSetting
     try {
-        appPrintSetting = await context.prisma.appPrintSetting.findFirst()
+        appPrintSetting = await context.prisma.appPrintSetting.findUnique({
+            where: {
+                dispensaryId: args.dispensaryId
+            }
+        })
     } catch (error) {
         console.log(error)
     }

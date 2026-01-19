@@ -814,6 +814,7 @@ model DeliveryPackages {
 
 model AppPrintSetting {
   id                        String      @id @default(cuid())
+  dispensaryId              String      @unique
   autoPrintReceiptOnComplete  Boolean     @default(false)
   autoPrintExitLabelsOnComplete  Boolean     @default(false)
 }
