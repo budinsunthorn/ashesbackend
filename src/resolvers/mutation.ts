@@ -38,6 +38,7 @@ import * as discountModel from "../models/discount";
 import * as loyaltyModel from "../models/loyalty";
 import * as userModel from "../models/user";
 import * as orderitemModel from "../models/orderItem";
+import { Dispensary } from "./dispensary";
 const crypto = require("crypto");
 const fs = require("fs");
 const csv = require("csv-parser");
@@ -5848,20 +5849,20 @@ export const Mutation = {
   //     };
   //   } else return throwUnauthorizedError();
   // },
-  updateAppPrintSetting: async (_parent, _args, context) => {
+  updateAppPrintSettingByDispensaryId: async (_parent, _args, context) => {
     if (context.role.includes(UserType.USER)) {
       try {
-          const getAppPrintSetting = await context.prisma.appPrintSetting.findFirst({});
-
+          console.log("updateAppPrintSettingByDispensaryId", _args)
           const appPrintSetting = await context.prisma.appPrintSetting.upsert({
             where: {
-              id: getAppPrintSetting?.id || ""
+              dispensaryId: _args.input?.dispensaryId
             },
             update: {
               autoPrintReceiptOnComplete: _args.input?.autoPrintReceiptOnComplete,
               autoPrintExitLabelsOnComplete: _args.input?.autoPrintExitLabelsOnComplete 
             },
             create: {
+              dispensaryId: _args.input?.dispensaryId,
               autoPrintReceiptOnComplete: _args.input?.autoPrintReceiptOnComplete,
               autoPrintExitLabelsOnComplete: _args.input?.autoPrintExitLabelsOnComplete 
             }

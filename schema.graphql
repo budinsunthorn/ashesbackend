@@ -303,7 +303,9 @@ type Query {
     toDate: String!
   ): ActionHistoryWithCount
 
-  appPrintSetting: AppPrintSetting
+  appPrintSettingByDispensaryId(
+    dispensaryId: String!
+  ): AppPrintSetting
 }
 
 type Mutation {
@@ -476,7 +478,7 @@ type Mutation {
   adjustDutchieOrderItem(input: AdjustGrowflowOrderInput!): CountTypeResponse
 
   createSyncHistory(input: SyncHistoryInput!): SyncHistory
-  updateAppPrintSetting(input: updateAppPrintSettingInput): AppPrintSetting
+  updateAppPrintSettingByDispensaryId(input: updateAppPrintSettingInput): AppPrintSetting
 }
 
 interface MutationResponse {
@@ -2070,11 +2072,13 @@ input SetRestockForOrderItemInput {
 }
 
 input updateAppPrintSettingInput {
+  dispensaryId: String!
   autoPrintReceiptOnComplete: Boolean
   autoPrintExitLabelsOnComplete: Boolean
 }
 
 type AppPrintSetting {
+  dispensaryId: String!
   autoPrintReceiptOnComplete: Boolean!
   autoPrintExitLabelsOnComplete: Boolean!
 }
