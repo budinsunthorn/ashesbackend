@@ -5838,16 +5838,16 @@ export const Mutation = {
             //     data: customers,
             //     skipDuplicates: true
             // });
-            console.log("Vendor imported>>>>>", vendors.length);
-          });
-      } catch (e) {
-        // console.log("ff", e)
-      }
-      return {
-        count: 0,
-      };
-    } else return throwUnauthorizedError();
-  },
+  //           console.log("Vendor imported>>>>>", vendors.length);
+  //         });
+  //     } catch (e) {
+  //       // console.log("ff", e)
+  //     }
+  //     return {
+  //       count: 0,
+  //     };
+  //   } else return throwUnauthorizedError();
+  // },
   updateAppPrintSetting: async (_parent, _args, context) => {
     if (context.role.includes(UserType.USER)) {
       try {
