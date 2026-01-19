@@ -48,7 +48,7 @@
     "@graphql-codegen/typescript-document-nodes": "4.0.1",
     "@graphql-codegen/typescript-resolvers": "4.0.1",
     "@types/node": "20.10.6",
-    "prisma": "^5.7.1",
+    "prisma": "^5.22.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
   },

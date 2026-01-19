@@ -5849,4 +5849,28 @@ export const Mutation = {
       };
     } else return throwUnauthorizedError();
   },
+  updateAppPrintSetting: async (_parent, _args, context) => {
+    if (context.role.includes(UserType.USER)) {
+      try {
+          const getAppPrintSetting = await context.prisma.appPrintSetting.findFirst({});
+
+          const appPrintSetting = await context.prisma.appPrintSetting.upsert({
+            where: {
+              id: getAppPrintSetting?.id || ""
+            },
+            update: {
+              autoPrintReceiptOnComplete: _args.input?.autoPrintReceiptOnComplete,
+              autoPrintExitLabelsOnComplete: _args.input?.autoPrintExitLabelsOnComplete 
+            },
+            create: {
+              autoPrintReceiptOnComplete: _args.input?.autoPrintReceiptOnComplete,
+              autoPrintExitLabelsOnComplete: _args.input?.autoPrintExitLabelsOnComplete 
+            }
+          });
+          return appPrintSetting;
+      } catch (e) {
+        handlePrismaError(e);
+      }
+    } else return throwUnauthorizedError();
+  },
 } satisfies MutationResolvers;
