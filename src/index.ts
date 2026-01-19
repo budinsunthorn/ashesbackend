@@ -111,7 +111,7 @@ async function StartServer() {
           dispensary: true
         }
       });
-      // console.log("userInfo>>>>> ", userInfo)
+      console.log("userInfo>>>>> ", userInfo)
       let token = ''
       let userData: any;
 

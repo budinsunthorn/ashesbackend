@@ -619,4 +619,9 @@ export const Query = {
       return reportModel.getNotifications(context, args);
     } else return throwUnauthorizedError();
   },
+  appPrintSetting: (_parent, args, context) => {
+    if (context.role.includes(UserType.USER)) {
+      return reportModel.getAppPrintSetting(context, args);
+    } else return throwUnauthorizedError();
+  },
 } satisfies QueryResolvers;

@@ -302,6 +302,8 @@ type Query {
     fromDate: String!
     toDate: String!
   ): ActionHistoryWithCount
+
+  appPrintSetting: AppPrintSetting
 }
 
 type Mutation {
@@ -474,6 +476,7 @@ type Mutation {
   adjustDutchieOrderItem(input: AdjustGrowflowOrderInput!): CountTypeResponse
 
   createSyncHistory(input: SyncHistoryInput!): SyncHistory
+  updateAppPrintSetting(input: updateAppPrintSettingInput): AppPrintSetting
 }
 
 interface MutationResponse {
@@ -2064,6 +2067,16 @@ input UpdateOrderToReturnInput {
 input SetRestockForOrderItemInput {
   id: String!
   trueFalse: Boolean!
+}
+
+input updateAppPrintSettingInput {
+  autoPrintReceiptOnComplete: Boolean
+  autoPrintExitLabelsOnComplete: Boolean
+}
+
+type AppPrintSetting {
+  autoPrintReceiptOnComplete: Boolean!
+  autoPrintExitLabelsOnComplete: Boolean!
 }
 
 enum StateType {

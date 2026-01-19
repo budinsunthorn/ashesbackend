@@ -815,3 +815,13 @@ export const getActionHistory = async (context, args) => {
     }
 }
 
+export const getAppPrintSetting = async (context, arges) => {
+    let appPrintSetting
+    try {
+        appPrintSetting = await context.prisma.appPrintSetting.findFirst()
+    } catch (error) {
+        console.log(error)
+    }
+    return appPrintSetting
+}
+

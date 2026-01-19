@@ -812,6 +812,12 @@ model DeliveryPackages {
   updatedAt                 DateTime   @updatedAt
 }
 
+model AppPrintSetting {
+  id                        String      @id @default(cuid())
+  autoPrintReceiptOnComplete  Boolean     @default(false)
+  autoPrintExitLabelsOnComplete  Boolean     @default(false)
+}
+
 enum StateType {
   AL
   AK
