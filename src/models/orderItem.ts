@@ -72,7 +72,7 @@ export const updateTaxHistoryForOrder = async (context, orderId) => {
               applyTo: applyTo,
             },
           });
-          console.log(taxApply);
+          // console.log(taxApply);
           for (const item of taxApply) {
             if (isTaxExempt && item.isTaxExempt) continue;
             const taxAmount = (fundAmount * item.compoundPercent) / 100;

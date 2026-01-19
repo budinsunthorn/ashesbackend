@@ -360,7 +360,6 @@ export const getAllPackagesByDispensaryIdWithPages = async (context, args) => {
             skip: (args.pageNumber - 1) * args.onePageRecords,
             take: args.onePageRecords,
         })
-        console.log("searchedPackages >>>>>>>>>>>> ", searchedPackages)
     } catch (error) {
         console.log(error)
         handlePrismaError(error)

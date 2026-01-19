@@ -945,6 +945,7 @@ enum PackageStatus {
   VOID
   ACTIVE
   FINISHED
+  TRANSFERRED
 }
 
 enum DropType {
