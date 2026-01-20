@@ -1955,6 +1955,8 @@ export const Mutation = {
               isCustomerAgeVerify: _args.input.isCustomerAgeVerify,
               customerAgeLimit: _args.input.customerAgeLimit,
               storeTimeZone: _args.input.storeTimeZone,
+              autoPrintReceiptOnComplete: _args.input.autoPrintReceiptOnComplete, 
+              autoPrintExitLabelsOnComplete: _args.input.autoPrintExitLabelsOnComplete
             },
           });
 
@@ -5849,28 +5851,4 @@ export const Mutation = {
   //     };
   //   } else return throwUnauthorizedError();
   // },
-  updateAppPrintSettingByDispensaryId: async (_parent, _args, context) => {
-    if (context.role.includes(UserType.USER)) {
-      try {
-          console.log("updateAppPrintSettingByDispensaryId", _args)
-          const appPrintSetting = await context.prisma.appPrintSetting.upsert({
-            where: {
-              dispensaryId: _args.input?.dispensaryId
-            },
-            update: {
-              autoPrintReceiptOnComplete: _args.input?.autoPrintReceiptOnComplete,
-              autoPrintExitLabelsOnComplete: _args.input?.autoPrintExitLabelsOnComplete 
-            },
-            create: {
-              dispensaryId: _args.input?.dispensaryId,
-              autoPrintReceiptOnComplete: _args.input?.autoPrintReceiptOnComplete,
-              autoPrintExitLabelsOnComplete: _args.input?.autoPrintExitLabelsOnComplete 
-            }
-          });
-          return appPrintSetting;
-      } catch (e) {
-        handlePrismaError(e);
-      }
-    } else return throwUnauthorizedError();
-  },
 } satisfies MutationResolvers;

@@ -46,6 +46,8 @@ model Dispensary {
   storeTimeZone             Timezones                @default(EST)
   smsOrderStart             String?
   smsOrderEnd               String?
+  autoPrintReceiptOnComplete  Boolean                @default(false)
+  autoPrintExitLabelsOnComplete  Boolean             @default(false)
   users                     User[]
   Product                   Product[]
   Customer                  Customer[]
@@ -812,12 +814,6 @@ model DeliveryPackages {
   updatedAt                 DateTime   @updatedAt
 }
 
-model AppPrintSetting {
-  id                        String      @id @default(cuid())
-  dispensaryId              String      @unique
-  autoPrintReceiptOnComplete  Boolean     @default(false)
-  autoPrintExitLabelsOnComplete  Boolean     @default(false)
-}
 
 enum StateType {
   AL
