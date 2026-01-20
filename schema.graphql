@@ -302,10 +302,6 @@ type Query {
     fromDate: String!
     toDate: String!
   ): ActionHistoryWithCount
-
-  appPrintSettingByDispensaryId(
-    dispensaryId: String!
-  ): AppPrintSetting
 }
 
 type Mutation {
@@ -478,7 +474,6 @@ type Mutation {
   adjustDutchieOrderItem(input: AdjustGrowflowOrderInput!): CountTypeResponse
 
   createSyncHistory(input: SyncHistoryInput!): SyncHistory
-  updateAppPrintSettingByDispensaryId(input: updateAppPrintSettingInput): AppPrintSetting
 }
 
 interface MutationResponse {
@@ -700,6 +695,8 @@ type Dispensary {
   storeTimeZone: Timezones!
   smsOrderStart: String
   smsOrderEnd: String
+  autoPrintReceiptOnComplete: Boolean
+  autoPrintExitLabelsOnComplete: Boolean
   createdAt: DateTime!
   updatedAt: DateTime!
 }
@@ -799,6 +796,8 @@ input DispensaryUpdateInput {
   isCustomerAgeVerify: Boolean
   customerAgeLimit: Int
   storeTimeZone: Timezones
+  autoPrintReceiptOnComplete: Boolean
+  autoPrintExitLabelsOnComplete: Boolean
 }
 
 input SmsUpdateInput {
@@ -2069,18 +2068,6 @@ input UpdateOrderToReturnInput {
 input SetRestockForOrderItemInput {
   id: String!
   trueFalse: Boolean!
-}
-
-input updateAppPrintSettingInput {
-  dispensaryId: String!
-  autoPrintReceiptOnComplete: Boolean
-  autoPrintExitLabelsOnComplete: Boolean
-}
-
-type AppPrintSetting {
-  dispensaryId: String!
-  autoPrintReceiptOnComplete: Boolean!
-  autoPrintExitLabelsOnComplete: Boolean!
 }
 
 enum StateType {
